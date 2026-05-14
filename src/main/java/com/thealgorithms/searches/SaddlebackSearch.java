@@ -8,7 +8,7 @@ package com.thealgorithms.searches;
  * <p>
  * we start from bottom left corner if the current element is greater than the
  * given element then we move up else we move right Sample Input: 5 5
- * ->Dimensions -10 -5 -3 4 9 -6 -2 0 5 10 -4 -1 1 6 12 2 3 7 8 13 100 120 130
+ * ->Dimensions -10 -5 -3 4 9 -6 -2 0 5 10 -4 -1 1 6 12
  * 140 150 140 ->element to be searched output: 4 3 // first value is row,
  * second one is column
  *

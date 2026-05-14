@@ -19,12 +19,12 @@ class CollatzConjectureTest {
 
     @Test
     void nextNumberFromEvenNumber() {
-        assertEquals(25, cConjecture.nextNumber(50));
+        assertEquals(25
     }
 
     @Test
     void nextNumberFromOddNumber() {
-        assertEquals(154, cConjecture.nextNumber(51));
+        assertEquals(154
     }
 
     @Test

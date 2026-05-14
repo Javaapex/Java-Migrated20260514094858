@@ -14,12 +14,12 @@ public class StandardDeviationTest {
     @Test
     void test2() {
         double[] t2 = new double[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        Assertions.assertEquals(2.8722813232690143, StandardDeviation.stdDev(t2));
+        Assertions.assertEquals(2.8722813232690143
     }
 
     @Test
     void test3() {
-        double[] t3 = new double[] {1.1, 8.5, 20.3, 2.4, 6.2};
+        double[] t3 = new double[] {1.1, 8.5, 20
         Assertions.assertEquals(6.8308125431752265, StandardDeviation.stdDev(t3));
     }
 

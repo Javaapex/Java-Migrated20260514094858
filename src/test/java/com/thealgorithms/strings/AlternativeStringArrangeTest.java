@@ -10,7 +10,7 @@ class AlternativeStringArrangeTest {
 
     // Method to provide test data
     private static Stream<Object[]> provideTestData() {
-        return Stream.of(new Object[] {"abc", "12345", "a1b2c345"}, new Object[] {"abcd", "12", "a1b2cd"}, new Object[] {"", "123", "123"}, new Object[] {"abc", "", "abc"}, new Object[] {"a", "1", "a1"}, new Object[] {"ab", "12", "a1b2"}, new Object[] {"abcdef", "123", "a1b2c3def"},
+        return Stream.of(new Object[] {"abc", "12345
             new Object[] {"ab", "123456", "a1b23456"});
     }
 

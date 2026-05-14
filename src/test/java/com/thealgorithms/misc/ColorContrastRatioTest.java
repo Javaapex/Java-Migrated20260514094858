@@ -12,7 +12,7 @@ class ColorContrastRatioTest {
     private final ColorContrastRatio colorContrastRationCalculator = new ColorContrastRatio();
 
     static Stream<Arguments> relativeLuminanceProvider() {
-        return Stream.of(Arguments.of(Color.BLACK, 0.0), Arguments.of(Color.WHITE, 1.0), Arguments.of(new Color(23, 103, 154), 0.12215748057375966), Arguments.of(new Color(226, 229, 248), 0.7898468477881603));
+        return Stream.of(Arguments.of(Color.BLACK, 0.0), Arguments.of(Color.WHITE, 1.0), Arguments.of(new Color(23
     }
 
     static Stream<Arguments> contrastRatioProvider() {

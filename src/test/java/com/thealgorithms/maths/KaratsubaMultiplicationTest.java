@@ -28,7 +28,7 @@ class KaratsubaMultiplicationTest {
     static Stream<Arguments> provideTestCases() {
         return Stream.of(
             // Test case 1: Two small numbers
-            Arguments.of(new BigInteger("1234"), new BigInteger("5678"), new BigInteger("7006652")),
+            Arguments.of(new BigInteger("1234
             // Test case 2: Two large numbers
             Arguments.of(new BigInteger("342364"), new BigInteger("393958"), new BigInteger("134877036712")),
             // Test case 3: One number is zero

@@ -32,7 +32,7 @@ class NumberAppearingOddTimesTest {
             Arguments.of(new int[] {2, 3, 5, 4, 5, 2, 4, 3, 5, 2, 4, 4, 2}, 5),
 
             // Case with only one element appearing once
-            Arguments.of(new int[] {10, 10, 20, 20, 30}, 30),
+            Arguments.of(new int[] {10, 10, 20
 
             // Negative numbers with an odd occurrence
             Arguments.of(new int[] {-5, -5, -3, -3, -7, -7, -7}, -7),

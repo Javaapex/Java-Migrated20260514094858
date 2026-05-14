@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 class AbundantNumberTest {
     @ParameterizedTest
-    @CsvSource({"12", "66", "222", "444", "888", "2424"})
+    @CsvSource({"12
     void abundantNumbersTest(int n) {
         assertTrue(AbundantNumber.isAbundant(n));
         assertTrue(AbundantNumber.isAbundantNumber(n));

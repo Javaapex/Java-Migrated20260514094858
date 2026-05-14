@@ -16,7 +16,7 @@ class SingleBitOperationsTest {
     }
 
     private static Stream<Arguments> provideFlipBitTestCases() {
-        return Stream.of(Arguments.of(3, 1, 1), // Binary: 11 -> 01
+        return Stream.of(Arguments.of(3, 1, 1), // Binary: 11
             Arguments.of(3, 3, 11) // Binary: 11 -> 1011
         );
     }

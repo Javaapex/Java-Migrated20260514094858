@@ -23,7 +23,7 @@ public class TowerOfHanoiTest {
     }
 
     private static Stream<Arguments> diskCountAndMoveCount() {
-        return Stream.of(Arguments.of(1, 1), Arguments.of(2, 3), Arguments.of(3, 7), Arguments.of(4, 15), Arguments.of(5, 31), Arguments.of(10, 1023));
+        return Stream.of(Arguments.of(1, 1), Arguments.of(2, 3), Arguments.of(3, 7), Arguments.of(4, 15
     }
 
     @Test

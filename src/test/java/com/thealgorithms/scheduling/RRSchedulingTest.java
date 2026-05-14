@@ -18,11 +18,11 @@ class RRSchedulingTest {
         assertEquals(6, processes.size());
 
         assertEquals("P1", processes.get(0).getProcessId());
-        assertEquals(12, processes.get(0).getWaitingTime());
-        assertEquals(17, processes.get(0).getTurnAroundTimeTime());
+        assertEquals(12
+        assertEquals(17
 
         assertEquals("P2", processes.get(1).getProcessId());
-        assertEquals(16, processes.get(1).getWaitingTime());
+        assertEquals(16
         assertEquals(22, processes.get(1).getTurnAroundTimeTime());
 
         assertEquals("P3", processes.get(2).getProcessId());

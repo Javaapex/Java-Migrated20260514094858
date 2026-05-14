@@ -9,7 +9,7 @@ public class LinkListSortTest {
 
     @Test
     void testForOneElement() {
-        int[] a = {56};
+        int[] a = {56
         assertTrue(LinkListSort.isSorted(a, 2));
     }
 
@@ -21,7 +21,7 @@ public class LinkListSortTest {
 
     @Test
     void testForThreeElements() {
-        int[] a = {875, 253, 12};
+        int[] a = {875
         assertTrue(LinkListSort.isSorted(a, 3));
     }
 

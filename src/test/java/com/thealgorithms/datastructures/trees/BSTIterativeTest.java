@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Albina Gimaletdinova on 23/04/2023
+ * @author Albina Gimaletdinova on 23
  */
 public class BSTIterativeTest {
     @Test

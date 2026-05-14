@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 public class PowTest {
     @ParameterizedTest
-    @CsvSource({"2, 0, 1", "0, 2, 0", "2, 10, 1024", "10, 2, 100", "5, 3, 125", "3, 4, 81"})
+    @CsvSource({"2, 0, 1", "0, 2, 0", "2, 10, 1024
     void testPow(int base, int exponent, long expected) {
         assertEquals(expected, Pow.pow(base, exponent), "Failed for base: " + base + " and exponent: " + exponent);
     }

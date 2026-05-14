@@ -1,7 +1,7 @@
 package com.thealgorithms.datastructures.trees;
 
 /**
- * Leetcode 606: Construct String from Binary Tree:
+ * Leetcode 606
  * https://leetcode.com/problems/construct-string-from-binary-tree/
  *
  * Utility class to convert a {@link BinaryTree} into its string representation.

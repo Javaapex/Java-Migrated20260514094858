@@ -8,8 +8,8 @@ import org.junit.jupiter.params.provider.CsvSource;
 class SwapAdjacentBitsTest {
 
     @ParameterizedTest
-    @CsvSource({"2, 1", // 2 (binary: 10) -> 1 (binary: 01)
-        "43, 23", // 43 (binary: 101011) -> 23 (binary: 010111)
+    @CsvSource({"2, 1", // 2 (binary: 10) -> 1 (binary: 01
+        "43
         "153, 102", // 153 (binary: 10011001) -> 102 (binary: 01100110)
         "15, 15", // 15 (binary: 1111) -> 15 (binary: 1111) (no change)
         "0, 0", // 0 (binary: 0000) -> 0 (binary: 0000) (no change)

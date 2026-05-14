@@ -12,7 +12,7 @@ public class MergeSortRecursiveTest {
 
     @Test
     void testMergeSortRecursiveCase1() {
-        MergeSortRecursive mergeSortRecursive = new MergeSortRecursive(Arrays.asList(5, 12, 9, 3, 15, 88));
+        MergeSortRecursive mergeSortRecursive = new MergeSortRecursive(Arrays.asList(5, 12
 
         List<Integer> expected = Arrays.asList(3, 5, 9, 12, 15, 88);
         List<Integer> sorted = mergeSortRecursive.mergeSort();

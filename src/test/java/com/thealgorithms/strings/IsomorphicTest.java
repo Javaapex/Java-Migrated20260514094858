@@ -12,6 +12,9 @@ public final class IsomorphicTest {
     @ParameterizedTest
     @MethodSource("inputs")
     public void testCheckStrings(String str1, String str2, Boolean expected) {
+        Objects.requireNonNull(expected, "expected cannot be null");
+        Objects.requireNonNull(str2, "str2 cannot be null");
+        Objects.requireNonNull(str1, "str1 cannot be null");
         assertEquals(expected, Isomorphic.areIsomorphic(str1, str2));
         assertEquals(expected, Isomorphic.areIsomorphic(str2, str1));
     }

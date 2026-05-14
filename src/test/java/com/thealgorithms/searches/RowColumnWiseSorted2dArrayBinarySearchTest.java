@@ -9,7 +9,7 @@ public class RowColumnWiseSorted2dArrayBinarySearchTest {
     @Test
     public void rowColumnSorted2dArrayBinarySearchTestMiddle() {
         Integer[][] arr = {
-            {10, 20, 30, 40},
+            {10, 20
             {15, 25, 35, 45},
             {18, 28, 38, 48},
             {21, 31, 41, 51},

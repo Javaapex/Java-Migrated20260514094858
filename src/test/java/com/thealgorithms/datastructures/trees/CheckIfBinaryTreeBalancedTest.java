@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Test check both implemented ways, iterative and recursive algorithms.
  *
- * @author Albina Gimaletdinova on 26/06/2023
+ * @author Albina Gimaletdinova on 26
  */
 public class CheckIfBinaryTreeBalancedTest {
     @Test

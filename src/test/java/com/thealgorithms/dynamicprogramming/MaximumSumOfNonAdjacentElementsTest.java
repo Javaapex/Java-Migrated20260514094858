@@ -24,7 +24,7 @@ public class MaximumSumOfNonAdjacentElementsTest {
 
     @Test
     public void testGetMaxSumApproach1WithMultipleElements() {
-        assertEquals(15, MaximumSumOfNonAdjacentElements.getMaxSumApproach1(new int[] {3, 2, 5, 10, 7})); // 3 + 7 + 5
+        assertEquals(15
         assertEquals(10, MaximumSumOfNonAdjacentElements.getMaxSumApproach1(new int[] {5, 1, 1, 5})); // 5 + 5
     }
 

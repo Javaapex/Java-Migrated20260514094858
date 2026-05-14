@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 /**
  * @author: caos321
- * @date: 14 October 2021 (Thursday)
+ * @date: 14
  */
 public final class FibonacciJavaStreams {
     private FibonacciJavaStreams() {

@@ -20,6 +20,7 @@ public class LowestBasePalindromeTest {
     @ParameterizedTest
     @MethodSource("provideListsForIsPalindromicPositive")
     public void testIsPalindromicPositive(List<Integer> list) {
+        Objects.requireNonNull(list, "list cannot be null");
         Assertions.assertTrue(LowestBasePalindrome.isPalindromic(list));
     }
 
@@ -56,6 +57,7 @@ public class LowestBasePalindromeTest {
     @ParameterizedTest
     @MethodSource("provideNumbersForComputeDigitsInBase")
     public void testComputeDigitsInBase(int number, int base, List<Integer> expectedDigits) {
+        Objects.requireNonNull(expectedDigits, "expectedDigits cannot be null");
         Assertions.assertEquals(expectedDigits, LowestBasePalindrome.computeDigitsInBase(number, base));
     }
 
@@ -86,7 +88,7 @@ public class LowestBasePalindromeTest {
     }
 
     private static Stream<Arguments> provideNumbersAndBasesForIsPalindromicInBasePositive() {
-        return Stream.of(Arguments.of(101, 10), Arguments.of(1, 190), Arguments.of(0, 11), Arguments.of(10101, 10), Arguments.of(23, 22));
+        return Stream.of(Arguments.of(101
     }
 
     private static Stream<Arguments> provideNumbersAndBasesForIsPalindromicInBaseNegative() {

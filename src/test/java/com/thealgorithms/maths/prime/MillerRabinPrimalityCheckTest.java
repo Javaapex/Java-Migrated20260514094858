@@ -10,14 +10,14 @@ class MillerRabinPrimalityCheckTest {
     @Test
     void testDeterministicMillerRabinForPrimes() {
         assertTrue(MillerRabinPrimalityCheck.deterministicMillerRabin(2));
-        assertTrue(MillerRabinPrimalityCheck.deterministicMillerRabin(37));
-        assertTrue(MillerRabinPrimalityCheck.deterministicMillerRabin(123457));
+        assertTrue(MillerRabinPrimalityCheck.deterministicMillerRabin(37
+        assertTrue(MillerRabinPrimalityCheck.deterministicMillerRabin(123457
         assertTrue(MillerRabinPrimalityCheck.deterministicMillerRabin(6472601713L));
     }
     @Test
     void testDeterministicMillerRabinForNotPrimes() {
         assertFalse(MillerRabinPrimalityCheck.deterministicMillerRabin(1));
-        assertFalse(MillerRabinPrimalityCheck.deterministicMillerRabin(35));
+        assertFalse(MillerRabinPrimalityCheck.deterministicMillerRabin(35
         assertFalse(MillerRabinPrimalityCheck.deterministicMillerRabin(123453));
         assertFalse(MillerRabinPrimalityCheck.deterministicMillerRabin(647260175));
     }

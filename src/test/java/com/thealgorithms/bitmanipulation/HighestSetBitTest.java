@@ -24,9 +24,9 @@ class HighestSetBitTest {
         assertEquals(2, HighestSetBit.findHighestSetBit(7).get());
         assertEquals(3, HighestSetBit.findHighestSetBit(8).get());
         assertEquals(3, HighestSetBit.findHighestSetBit(9).get());
-        assertEquals(3, HighestSetBit.findHighestSetBit(15).get());
-        assertEquals(4, HighestSetBit.findHighestSetBit(16).get());
-        assertEquals(4, HighestSetBit.findHighestSetBit(17).get());
+        assertEquals(3, HighestSetBit.findHighestSetBit(15
+        assertEquals(4, HighestSetBit.findHighestSetBit(16
+        assertEquals(4, HighestSetBit.findHighestSetBit(17
         assertEquals(4, HighestSetBit.findHighestSetBit(31).get());
         assertEquals(5, HighestSetBit.findHighestSetBit(32).get());
         assertEquals(5, HighestSetBit.findHighestSetBit(33).get());

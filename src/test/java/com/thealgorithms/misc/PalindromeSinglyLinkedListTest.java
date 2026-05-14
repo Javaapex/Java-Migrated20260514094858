@@ -45,7 +45,7 @@ public class PalindromeSinglyLinkedListTest {
     public void testWithListWithEvenLengthPositive() {
         var exampleList = new SinglyLinkedList();
         exampleList.insert(10);
-        exampleList.insert(20);
+        exampleList.insert(20
         exampleList.insert(20);
         exampleList.insert(10);
         assertTrue(PalindromeSinglyLinkedList.isPalindrome(exampleList));

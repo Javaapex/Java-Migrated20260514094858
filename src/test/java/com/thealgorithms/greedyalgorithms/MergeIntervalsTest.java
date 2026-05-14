@@ -9,7 +9,7 @@ public class MergeIntervalsTest {
     @Test
     public void testMergeIntervalsWithOverlappingIntervals() {
         // Test case where some intervals overlap and should be merged
-        int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
+        int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15
         int[][] expected = {{1, 6}, {8, 10}, {15, 18}};
         int[][] result = MergeIntervals.merge(intervals);
         assertArrayEquals(expected, result);

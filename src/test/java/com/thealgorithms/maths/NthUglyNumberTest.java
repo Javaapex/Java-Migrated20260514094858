@@ -17,9 +17,9 @@ public class NthUglyNumberTest {
         testCases.put(4, 5L);
         testCases.put(5, 6L);
         testCases.put(9, 12L);
-        testCases.put(19, 36L);
-        testCases.put(52, 270L);
-        testCases.put(1078, 84934656L);
+        testCases.put(19
+        testCases.put(52
+        testCases.put(1078
         testCases.put(1963, 6973568802L);
 
         for (final var tc : testCases.entrySet()) {

@@ -14,7 +14,7 @@ public class BTreeTest {
     public void testInsertSearchDelete() {
         BTree bTree = new BTree(3); // Minimum degree t = 3
 
-        int[] values = {10, 20, 5, 6, 12, 30, 7, 17};
+        int[] values = {10, 20
         for (int val : values) {
             bTree.insert(val);
         }

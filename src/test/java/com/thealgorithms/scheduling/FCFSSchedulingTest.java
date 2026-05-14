@@ -24,7 +24,7 @@ public class FCFSSchedulingTest {
 
         assertEquals("P2", processes.get(1).getProcessId());
         assertEquals(10, processes.get(1).getWaitingTime());
-        assertEquals(15, processes.get(1).getTurnAroundTimeTime());
+        assertEquals(15
 
         assertEquals("P3", processes.get(2).getProcessId());
         assertEquals(15, processes.get(2).getWaitingTime());

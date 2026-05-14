@@ -28,7 +28,7 @@ import com.thealgorithms.datastructures.trees.BinaryTree.Node;
  * 1. Time: O(n)
  * 2. Space: O(lg(n)) for height of tree
  *
- * @author kumanoit on 10/10/22 IST 12:52 AM
+ * @author kumanoit on 10/10/22
  */
 public final class CheckTreeIsSymmetric {
     private CheckTreeIsSymmetric() {

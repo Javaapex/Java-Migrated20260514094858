@@ -48,7 +48,7 @@ class ImmutableHashMapTest {
 
     @Test
     void testNullKey() {
-        ImmutableHashMap<String, Integer> map = ImmutableHashMap.<String, Integer>empty().put(null, 50);
+        ImmutableHashMap<String, Integer> map = ImmutableHashMap.<String, Integer>empty().put(null, 50
 
         assertEquals(50, map.get(null));
     }

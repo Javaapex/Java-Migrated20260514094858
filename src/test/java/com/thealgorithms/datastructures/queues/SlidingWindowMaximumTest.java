@@ -12,6 +12,8 @@ public class SlidingWindowMaximumTest {
     @ParameterizedTest
     @MethodSource("provideTestCases")
     public void testMaxSlidingWindow(int[] nums, int k, int[] expected) {
+        Objects.requireNonNull(expected, "expected cannot be null");
+        Objects.requireNonNull(nums, "nums cannot be null");
         assertArrayEquals(expected, SlidingWindowMaximum.maxSlidingWindow(nums, k));
     }
 

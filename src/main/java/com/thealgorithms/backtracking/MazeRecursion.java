@@ -24,7 +24,7 @@ public final class MazeRecursion {
         if (setWay(map, 1, 1)) {
             return map;
         }
-        return null;
+        return null; // TODO: Consider returning Optional.empty() instead
     }
 
     /**
@@ -38,7 +38,7 @@ public final class MazeRecursion {
         if (setWay2(map, 1, 1)) {
             return map;
         }
-        return null;
+        return null; // TODO: Consider returning Optional.empty() instead
     }
 
     /**

@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Given tree is traversed in a 'post-order' way: LEFT -> RIGHT -> ROOT.
  *
- * @author Albina Gimaletdinova on 21/02/2023
+ * @author Albina Gimaletdinova on 21
  */
 public class PostOrderTraversalTest {
     @Test

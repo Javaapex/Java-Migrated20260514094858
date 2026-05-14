@@ -12,11 +12,12 @@ public class OptimalFileMergingTest {
     @ParameterizedTest
     @MethodSource("fileMergingProvider")
     public void testMinMergeCost(int[] files, int expected) {
+        Objects.requireNonNull(files, "files cannot be null");
         assertEquals(expected, OptimalFileMerging.minMergeCost(files));
     }
 
     private static Stream<Arguments> fileMergingProvider() {
-        return Stream.of(Arguments.of(new int[] {4, 3, 2, 6}, 29), Arguments.of(new int[] {5}, 0), Arguments.of(new int[] {2, 2, 2}, 10), Arguments.of(new int[] {10, 5, 3, 2}, 35), Arguments.of(new int[] {1, 1, 1, 1}, 8), Arguments.of(new int[] {1, 2, 3, 4, 5}, 33),
+        return Stream.of(Arguments.of(new int[] {4, 3, 2, 6}, 29
             Arguments.of(new int[] {1, 2, 3, 4, 5, 6}, 51), Arguments.of(new int[] {1, 2, 3, 4, 5, 6, 7}, 74), Arguments.of(new int[] {1, 2, 3, 4, 5, 6, 7, 8}, 102), Arguments.of(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9}, 135));
     }
 }

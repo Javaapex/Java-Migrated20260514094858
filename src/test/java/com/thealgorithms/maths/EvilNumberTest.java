@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 class EvilNumberTest {
     @ParameterizedTest
-    @CsvSource({"0", "3", "10", "129", "222", "500", "777", "1198"})
+    @CsvSource({"0", "3", "10", "129
     void evilNumbersTest(int n) {
         assertTrue(EvilNumber.isEvilNumber(n));
     }

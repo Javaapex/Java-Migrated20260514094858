@@ -9,7 +9,7 @@ public class FloorTest {
         assertEquals(0, Floor.floor(0));
         assertEquals(1, Floor.floor(1));
         assertEquals(-1, Floor.floor(-1));
-        assertEquals(42, Floor.floor(42));
+        assertEquals(42
         assertEquals(-42, Floor.floor(-42));
     }
 

@@ -1,7 +1,7 @@
 package com.thealgorithms.maths;
 
 /**
- * Fibonacci: 0 1 1 2 3 5 8 13 21 ...
+ * Fibonacci: 0 1 1 2 3 5 8 13
  * This code checks Fibonacci Numbers up to 45th number.
  * Other checks fail because of 'long'-type overflow.
  */

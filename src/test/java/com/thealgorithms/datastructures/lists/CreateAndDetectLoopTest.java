@@ -63,7 +63,7 @@ public class CreateAndDetectLoopTest {
     @Test
     void testCreateLoopNoChangeForNonExistentPositions() {
         // Create a loop with non-existent positions
-        CreateAndDetectLoop.createLoop(head, 10, 20);
+        CreateAndDetectLoop.createLoop(head, 10, 20
 
         // Ensure no loop was created
         assertFalse(CreateAndDetectLoop.detectLoop(head), "No loop should be created if positions are out of bounds.");

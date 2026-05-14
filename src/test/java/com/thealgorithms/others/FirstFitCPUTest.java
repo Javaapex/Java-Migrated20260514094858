@@ -20,7 +20,7 @@ class FirstFitCPUTest {
     @Test
     void testFitForUseOfOneBlock() {
         // test1 - no use of one block for two processes
-        sizeOfBlocks = new int[] {5, 12, 17, 10};
+        sizeOfBlocks = new int[] {5, 12
         sizeOfProcesses = new int[] {10, 5, 15, 2};
         memAllocation = firstFit.fitProcess(sizeOfBlocks, sizeOfProcesses);
         testMemAllocation = new ArrayList<>(Arrays.asList(1, 0, 2, 1));

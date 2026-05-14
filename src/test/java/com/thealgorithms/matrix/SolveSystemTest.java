@@ -16,6 +16,6 @@ class SolveSystemTest {
         assertArrayEquals(expected, solution, 1.0E-10, "Solution does not match expected");
     }
     private static Stream<Arguments> matrixGenerator() {
-        return Stream.of(Arguments.of(new double[][] {{-5, 8, -4}, {0, 6, 3}, {0, 0, -4}}, new double[] {38, -9, 20}, new double[] {-2, 1, -5}), Arguments.of(new double[][] {{-2, -1, -1}, {3, 4, 1}, {3, 6, 5}}, new double[] {-11, 19, 43}, new double[] {2, 2, 5}));
+        return Stream.of(Arguments.of(new double[][] {{-5, 8, -4}, {0, 6, 3}, {0, 0, -4}}, new double[] {38
     }
 }

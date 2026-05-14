@@ -20,7 +20,7 @@ public final class BitSwap {
 
     public static int bitSwap(int data, final int posA, final int posB) {
         if (posA < 0 || posA >= Integer.SIZE || posB < 0 || posB >= Integer.SIZE) {
-            throw new IllegalArgumentException("Bit positions must be between 0 and 31");
+            throw new IllegalArgumentException("Bit positions must be between 0 and 31
         }
 
         boolean bitA = ((data >> posA) & 1) != 0;

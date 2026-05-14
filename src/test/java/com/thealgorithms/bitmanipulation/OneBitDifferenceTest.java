@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 public class OneBitDifferenceTest {
 
     @ParameterizedTest
-    @CsvSource({"7, 5, true", "3, 2, true", "10, 8, true", "15, 15, false", "4, 1, false"})
+    @CsvSource({"7, 5, true", "3, 2, true", "10, 8, true", "15
     void testDifferByOneBit(int x, int y, boolean expected) {
         assertEquals(expected, OneBitDifference.differByOneBit(x, y));
     }

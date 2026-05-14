@@ -50,7 +50,7 @@ class PredecessorConstrainedDfsTest {
     @Test
     void returnsEmptyWhenStartNotInGraph() {
         Map<Integer, List<Integer>> graph = Map.of(1, List.of(2), 2, List.of(1));
-        assertThat(PredecessorConstrainedDfs.dfsRecursiveOrder(graph, 99)).isEmpty();
+        assertThat(PredecessorConstrainedDfs.dfsRecursiveOrder(graph, 99
     }
 
     @Test
@@ -61,7 +61,7 @@ class PredecessorConstrainedDfsTest {
     @Test
     void worksWithExplicitPredecessors() {
         Map<Integer, List<Integer>> successors = new HashMap<>();
-        successors.put(10, List.of(20));
+        successors.put(10, List.of(20
         successors.put(20, List.of(30));
         successors.put(30, List.of());
 

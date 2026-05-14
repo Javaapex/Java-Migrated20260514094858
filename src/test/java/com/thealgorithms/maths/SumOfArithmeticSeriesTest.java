@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class SumOfArithmeticSeriesTest {
     @Test
     public void testSumFrom1To10() {
-        assertEquals(55.0, SumOfArithmeticSeries.sumOfSeries(1.0, 1.0, 10));
+        assertEquals(55
     }
 
     @Test

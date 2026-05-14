@@ -12,6 +12,7 @@ public class StockProfitCalculatorTest {
     @ParameterizedTest
     @MethodSource("provideTestCases")
     public void testMaxProfit(int[] prices, int expected) {
+        Objects.requireNonNull(prices, "prices cannot be null");
         assertEquals(expected, StockProfitCalculator.maxProfit(prices));
     }
 

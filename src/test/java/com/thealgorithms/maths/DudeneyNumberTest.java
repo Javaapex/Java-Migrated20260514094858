@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 class DudeneyNumberTest {
     @ParameterizedTest
-    @CsvSource({"1", "512", "4913", "5832", "17576", "19683"})
+    @CsvSource({"1", "512
     void positiveDudeneyBase10Power3(final int n) {
         assertTrue(DudeneyNumber.isDudeney(n));
     }

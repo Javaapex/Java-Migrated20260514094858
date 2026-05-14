@@ -16,14 +16,14 @@ public class DigitSeparationTest {
     @Test
     public void testDigitSeparationReverseOrderMultipleDigits() {
         DigitSeparation digitSeparation = new DigitSeparation();
-        List<Long> result = digitSeparation.digitSeparationReverseOrder(123);
+        List<Long> result = digitSeparation.digitSeparationReverseOrder(123
         assertEquals(List.of(3L, 2L, 1L), result);
     }
 
     @Test
     public void testDigitSeparationReverseOrderLargeNumber() {
         DigitSeparation digitSeparation = new DigitSeparation();
-        List<Long> result = digitSeparation.digitSeparationReverseOrder(123456789);
+        List<Long> result = digitSeparation.digitSeparationReverseOrder(123456789
         assertEquals(List.of(9L, 8L, 7L, 6L, 5L, 4L, 3L, 2L, 1L), result);
     }
 

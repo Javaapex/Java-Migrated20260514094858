@@ -77,6 +77,7 @@ public class SimpleTreeNode<E> extends TreeNode<E> {
     }
 
     public void setLeftNode(SimpleTreeNode<E> leftNode) {
+        Objects.requireNonNull(leftNode, "leftNode cannot be null");
         this.leftNode = leftNode;
     }
 
@@ -85,6 +86,7 @@ public class SimpleTreeNode<E> extends TreeNode<E> {
     }
 
     public void setRightNode(SimpleTreeNode<E> rightNode) {
+        Objects.requireNonNull(rightNode, "rightNode cannot be null");
         this.rightNode = rightNode;
     }
 }

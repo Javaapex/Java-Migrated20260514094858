@@ -10,16 +10,16 @@ public class HexaDecimalToDecimalTest {
 
     @ParameterizedTest
     @CsvSource({
-        "A1, 161", // Simple case with two characters
-        "1AC, 428", // Mixed-case input
+        "A1, 161
+        "1AC, 428
         "0, 0", // Single zero
-        "F, 15", // Single digit
+        "F, 15
         "10, 16", // Power of 16
         "FFFF, 65535", // Max 4-character hex
         "7FFFFFFF, 2147483647" // Max positive int value
     })
-    public void
-    testValidHexaToDecimal(String hexInput, int expectedDecimal) {
+    public void testValidHexaToDecimal(String hexInput, int expectedDecimal) {
+        Objects.requireNonNull(hexInput, "hexInput cannot be null");
         assertEquals(expectedDecimal, HexaDecimalToDecimal.getHexaToDec(hexInput));
     }
 
@@ -30,8 +30,8 @@ public class HexaDecimalToDecimalTest {
         "123G", // Valid prefix with invalid character
         "#$%" // Non-hexadecimal symbols
     })
-    public void
-    testInvalidHexaToDecimal(String invalidHex) {
+    public void testInvalidHexaToDecimal(String invalidHex) {
+        Objects.requireNonNull(invalidHex, "invalidHex cannot be null");
         assertThrows(IllegalArgumentException.class, () -> HexaDecimalToDecimal.getHexaToDec(invalidHex));
     }
 }

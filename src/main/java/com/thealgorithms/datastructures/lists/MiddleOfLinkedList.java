@@ -30,7 +30,7 @@ public final class MiddleOfLinkedList {
      */
     public static SinglyLinkedListNode middleNode(final SinglyLinkedListNode head) {
         if (head == null) {
-            return null;
+            return null; // TODO: Consider returning Optional.empty() instead
         }
 
         SinglyLinkedListNode slow = head;

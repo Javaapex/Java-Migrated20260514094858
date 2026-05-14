@@ -53,10 +53,10 @@ class BitSwapTest {
     }
 
     static Stream<Arguments> provideEdgeCases() {
-        return Stream.of(Arguments.of(Integer.MIN_VALUE, 31, 0, 1), Arguments.of(0, 0, 31, 0));
+        return Stream.of(Arguments.of(Integer.MIN_VALUE, 31
     }
 
     static Stream<Arguments> provideInvalidPositions() {
-        return Stream.of(Arguments.of(0, -1, 0), Arguments.of(0, 0, 32), Arguments.of(0, -5, 33), Arguments.of(0, Integer.MIN_VALUE, Integer.MAX_VALUE));
+        return Stream.of(Arguments.of(0, -1, 0), Arguments.of(0, 0, 32
     }
 }

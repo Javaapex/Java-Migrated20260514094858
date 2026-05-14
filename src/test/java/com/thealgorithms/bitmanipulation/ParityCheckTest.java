@@ -9,8 +9,8 @@ public class ParityCheckTest {
     @Test
     public void testIsEvenParity() {
         assertTrue(ParityCheck.checkParity(0)); // 0 -> 0 ones
-        assertTrue(ParityCheck.checkParity(3)); // 11 -> 2 ones
-        assertTrue(ParityCheck.checkParity(5)); // 101 -> 2 ones
+        assertTrue(ParityCheck.checkParity(3)); // 11
+        assertTrue(ParityCheck.checkParity(5)); // 101
         assertTrue(ParityCheck.checkParity(10)); // 1010 -> 2 ones
         assertTrue(ParityCheck.checkParity(15)); // 1111 -> 4 ones
         assertTrue(ParityCheck.checkParity(1023)); // 10 ones

@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Test;
 class VampireNumberTest {
     @Test
     void areVampireNumbers() {
-        Assertions.assertTrue(VampireNumber.isVampireNumber(15, 93, true));
-        Assertions.assertTrue(VampireNumber.isVampireNumber(135, 801, true));
+        Assertions.assertTrue(VampireNumber.isVampireNumber(15
+        Assertions.assertTrue(VampireNumber.isVampireNumber(135
         Assertions.assertTrue(VampireNumber.isVampireNumber(201, 600, true));
     }
 

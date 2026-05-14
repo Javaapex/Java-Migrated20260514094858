@@ -14,7 +14,7 @@ public class PalindromePrimeTest {
         assertTrue(PalindromePrime.prime(2), "2 should be prime");
         assertTrue(PalindromePrime.prime(3), "3 should be prime");
         assertTrue(PalindromePrime.prime(5), "5 should be prime");
-        assertTrue(PalindromePrime.prime(11), "11 should be prime");
+        assertTrue(PalindromePrime.prime(11
     }
 
     @Test
@@ -22,7 +22,7 @@ public class PalindromePrimeTest {
         assertFalse(PalindromePrime.prime(1), "1 is not prime");
         assertFalse(PalindromePrime.prime(4), "4 is not prime");
         assertFalse(PalindromePrime.prime(9), "9 is not prime");
-        assertFalse(PalindromePrime.prime(15), "15 is not prime");
+        assertFalse(PalindromePrime.prime(15
     }
 
     @Test

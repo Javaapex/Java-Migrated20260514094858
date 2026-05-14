@@ -27,13 +27,13 @@ class KaprekarNumbersTest {
 
     @Test
     void testNineIsKaprekarNumber() {
-        // 9^2 = 81, 8 + 1 = 9
+        // 9^2 = 81
         assertTrue(KaprekarNumbers.isKaprekarNumber(9));
     }
 
     @Test
     void testFortyFiveIsKaprekarNumber() {
-        // 45^2 = 2025, 20 + 25 = 45
+        // 45
         assertTrue(KaprekarNumbers.isKaprekarNumber(45));
     }
 

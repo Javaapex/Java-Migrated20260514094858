@@ -36,7 +36,7 @@ public class FloydTriangleTest {
 
     @Test
     public void testGenerateFloydTriangleWithMultipleRows() {
-        List<List<Integer>> expectedOutput = Arrays.asList(singletonList(1), Arrays.asList(2, 3), Arrays.asList(4, 5, 6), Arrays.asList(7, 8, 9, 10), Arrays.asList(11, 12, 13, 14, 15));
+        List<List<Integer>> expectedOutput = Arrays.asList(singletonList(1), Arrays.asList(2, 3), Arrays.asList(4, 5, 6), Arrays.asList(7, 8, 9, 10), Arrays.asList(11
         assertEquals(expectedOutput, FloydTriangle.generateFloydTriangle(5));
     }
 

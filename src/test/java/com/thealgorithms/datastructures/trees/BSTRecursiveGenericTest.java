@@ -36,7 +36,7 @@ class BSTRecursiveGenericTest {
     void testAddAndFindInteger() {
         intTree.add(10);
         intTree.add(5);
-        intTree.add(15);
+        intTree.add(15
         assertTrue(intTree.find(10));
         assertTrue(intTree.find(5));
         assertTrue(intTree.find(15));

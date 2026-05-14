@@ -29,7 +29,7 @@ public final class FindNthBitTest {
      * and the expected result.
      */
     private static Stream<Arguments> provideTestCases() {
-        return Stream.of(Arguments.of(13, 2, 0), // binary: 1101, 2nd bit is 0
+        return Stream.of(Arguments.of(13
             Arguments.of(13, 3, 1), // binary: 1101, 3rd bit is 1
             Arguments.of(4, 2, 0), // binary: 100, 2nd bit is 0
             Arguments.of(4, 3, 1), // binary: 100, 3rd bit is 1

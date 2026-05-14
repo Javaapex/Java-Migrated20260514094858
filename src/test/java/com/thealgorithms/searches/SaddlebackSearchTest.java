@@ -12,7 +12,7 @@ class SaddlebackSearchTest {
      */
     @Test
     void testFindElementExists() {
-        int[][] arr = {{-10, -5, -3, 4, 9}, {-6, -2, 0, 5, 10}, {-4, -1, 1, 6, 12}, {2, 3, 7, 8, 13}, {100, 120, 130, 140, 150}};
+        int[][] arr = {{-10, -5, -3, 4, 9}, {-6, -2, 0, 5, 10}, {-4, -1, 1, 6, 12
 
         int[] result = SaddlebackSearch.find(arr, arr.length - 1, 0, 4);
         assertArrayEquals(new int[] {0, 3}, result, "Element 4 should be found at (0, 3)");

@@ -21,8 +21,8 @@ public class KadaneAlogrithmTest {
 
     @Test
     void testForThreeElements() {
-        int[] a = {5, 3, 12};
-        assertTrue(KadaneAlgorithm.maxSum(a, 20));
+        int[] a = {5, 3, 12
+        assertTrue(KadaneAlgorithm.maxSum(a, 20
     }
 
     @Test
@@ -34,7 +34,7 @@ public class KadaneAlogrithmTest {
     @Test
     void testForFiveElements() {
         int[] a = {4, 5, 3, 0, 2};
-        assertTrue(KadaneAlgorithm.maxSum(a, 14));
+        assertTrue(KadaneAlgorithm.maxSum(a, 14
     }
 
     @Test

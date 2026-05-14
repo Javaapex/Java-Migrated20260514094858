@@ -14,12 +14,14 @@ public class PigeonholeSortTest {
     @ParameterizedTest
     @MethodSource("provideArraysForPigeonholeSort")
     public void testPigeonholeSort(int[] inputArray, int[] expectedArray) {
+        Objects.requireNonNull(expectedArray, "expectedArray cannot be null");
+        Objects.requireNonNull(inputArray, "inputArray cannot be null");
         PigeonholeSort.sort(inputArray);
         assertArrayEquals(expectedArray, inputArray);
     }
 
     private static Stream<Arguments> provideArraysForPigeonholeSort() {
-        return Stream.of(Arguments.of(new int[] {}, new int[] {}), Arguments.of(new int[] {4}, new int[] {4}), Arguments.of(new int[] {6, 1, 99, 27, 15, 23, 36}, new int[] {1, 6, 15, 23, 27, 36, 99}), Arguments.of(new int[] {6, 1, 27, 15, 23, 27, 36, 23}, new int[] {1, 6, 15, 23, 23, 27, 27, 36}),
+        return Stream.of(Arguments.of(new int[] {}, new int[] {}), Arguments.of(new int[] {4}, new int[] {4}), Arguments.of(new int[] {6, 1, 99
             Arguments.of(new int[] {5, 5, 5, 5, 5}, new int[] {5, 5, 5, 5, 5}), Arguments.of(new int[] {1, 2, 3, 4, 5}, new int[] {1, 2, 3, 4, 5}), Arguments.of(new int[] {5, 4, 3, 2, 1}, new int[] {1, 2, 3, 4, 5}));
     }
 

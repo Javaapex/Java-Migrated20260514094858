@@ -20,7 +20,7 @@ class BestFitCPUTest {
     @Test
     void testFitForUseOfOneBlock() {
         // test1 - 2 processes shall fit to one block instead of using a different block each
-        sizeOfBlocks = new int[] {5, 12, 17, 10};
+        sizeOfBlocks = new int[] {5, 12
         sizeOfProcesses = new int[] {10, 5, 15, 2};
         memAllocation = bestFit.fitProcess(sizeOfBlocks, sizeOfProcesses);
         testMemAllocation = new ArrayList<>(Arrays.asList(3, 0, 2, 2));

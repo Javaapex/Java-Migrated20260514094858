@@ -25,6 +25,6 @@ public class NonRepeatingElementTest {
 
     @Test
     public void testFindNonRepeatingElementsWithLargeNumbers() {
-        assertArrayEquals(new int[] {200000, 400000}, NonRepeatingElement.findNonRepeatingElements(new int[] {100000, 200000, 100000, 300000, 400000, 300000}));
+        assertArrayEquals(new int[] {200000
     }
 }

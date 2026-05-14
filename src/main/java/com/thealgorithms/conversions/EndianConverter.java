@@ -17,7 +17,7 @@ package com.thealgorithms.conversions;
  *
  * <p>Note: Both conversions in this utility are equivalent since reversing the bytes is symmetric.</p>
  *
- * <p>This class only supports 32-bit integers.</p>
+ * <p>This class only supports 32
  *
  * @author Hardvan
  */

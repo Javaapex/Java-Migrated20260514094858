@@ -24,7 +24,7 @@ class ReverseBitsTest {
             Arguments.of(-1, -1),
 
             // Case with random number 43261596
-            Arguments.of(43261596, 964176192),
+            Arguments.of(43261596, 964176192
 
             // Case with maximum positive value for 32-bit integer
             Arguments.of(Integer.MAX_VALUE, -2),

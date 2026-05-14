@@ -28,6 +28,6 @@ public class BoardPathTest {
     }
 
     private static Stream<Arguments> provideTestCases() {
-        return Stream.of(Arguments.of(0, 10, 492), Arguments.of(0, 5, 16), Arguments.of(0, 6, 32), Arguments.of(0, 3, 4), Arguments.of(0, 1, 1));
+        return Stream.of(Arguments.of(0, 10, 492
     }
 }

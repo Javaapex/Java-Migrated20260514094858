@@ -9,7 +9,7 @@ public class AbsoluteMinTest {
 
     @Test
     void testGetMinValue() {
-        assertEquals(0, AbsoluteMin.getMinValue(4, 0, 16));
+        assertEquals(0, AbsoluteMin.getMinValue(4, 0, 16
         assertEquals(-2, AbsoluteMin.getMinValue(3, -10, -2));
     }
 

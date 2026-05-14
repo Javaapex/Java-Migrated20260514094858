@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Albina Gimaletdinova on 12/01/2023
+ * @author Albina Gimaletdinova on 12
  */
 public class SameTreesCheckTest {
     @Test

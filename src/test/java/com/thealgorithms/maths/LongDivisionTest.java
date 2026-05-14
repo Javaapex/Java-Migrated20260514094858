@@ -24,7 +24,7 @@ public class LongDivisionTest {
     // after division Basically the same as in the first test
     @Test
     void testThree() {
-        assertEquals(10, LongDivision.divide(105, 10));
+        assertEquals(10, LongDivision.divide(105
     }
 
     // Requirement: Dividend (negative), divisor (positive), returns correct integer after division

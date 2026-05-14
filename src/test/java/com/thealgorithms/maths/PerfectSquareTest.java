@@ -6,7 +6,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 public class PerfectSquareTest {
     @ParameterizedTest
-    @ValueSource(ints = {0, 1, 2 * 2, 3 * 3, 4 * 4, 5 * 5, 6 * 6, 7 * 7, 8 * 8, 9 * 9, 10 * 10, 11 * 11, 123 * 123})
+    @ValueSource(ints = {0, 1, 2 * 2, 3 * 3, 4 * 4, 5 * 5, 6 * 6, 7 * 7, 8 * 8, 9 * 9, 10 * 10, 11
     void positiveTest(final int number) {
         Assertions.assertTrue(PerfectSquare.isPerfectSquare(number));
         Assertions.assertTrue(PerfectSquare.isPerfectSquareUsingPow(number));

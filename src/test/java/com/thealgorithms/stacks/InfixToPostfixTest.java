@@ -17,7 +17,7 @@ class InfixToPostfixTest {
     }
 
     private static Stream<Arguments> provideValidExpressions() {
-        return Stream.of(Arguments.of("3+2", "32+"), Arguments.of("1+(2+3)", "123++"), Arguments.of("(3+4)*5-6", "34+5*6-"));
+        return Stream.of(Arguments.of("3+2", "32
     }
 
     @ParameterizedTest

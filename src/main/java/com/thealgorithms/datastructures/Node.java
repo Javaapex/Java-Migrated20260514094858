@@ -23,6 +23,7 @@ public class Node<T> {
     }
 
     public void addChild(Node<T> child) {
+        Objects.requireNonNull(child, "child cannot be null");
         children.add(child);
     }
 

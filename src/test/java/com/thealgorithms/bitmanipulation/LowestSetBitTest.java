@@ -14,7 +14,7 @@ public class LowestSetBitTest {
     @Test
     void testLowestSetBitWithPositiveNumber() {
         // Test with a general positive number
-        assertEquals(2, LowestSetBit.isolateLowestSetBit(18)); // 18 in binary: 10010, lowest bit is 2
+        assertEquals(2, LowestSetBit.isolateLowestSetBit(18
     }
 
     @Test

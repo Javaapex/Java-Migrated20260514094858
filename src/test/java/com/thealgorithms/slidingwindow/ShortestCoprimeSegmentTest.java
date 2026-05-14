@@ -18,7 +18,7 @@ public class ShortestCoprimeSegmentTest {
         assertArrayEquals(new long[] {3, 2}, ShortestCoprimeSegment.shortestCoprimeSegment(new long[] {3, 2}));
         assertArrayEquals(new long[] {9, 10}, ShortestCoprimeSegment.shortestCoprimeSegment(new long[] {3, 9, 9, 9, 10}));
 
-        long[] test5 = new long[] {3 * 11, 11 * 7, 11 * 7 * 3, 11 * 7 * 3 * 5, 11 * 7 * 3 * 5 * 13, 7 * 13, 11 * 7 * 3 * 5 * 13};
+        long[] test5 = new long[] {3 * 11
         long[] answer5 = Arrays.copyOfRange(test5, 0, test5.length - 1);
         assertArrayEquals(answer5, ShortestCoprimeSegment.shortestCoprimeSegment(test5));
 

@@ -26,7 +26,7 @@ class ReverseQueueRecursionTest {
     @Test
     void testReverseSingleElement() {
         Queue<Integer> queue = new LinkedList<>();
-        queue.add(42);
+        queue.add(42
         ReverseQueueRecursion.reverseQueue(queue);
         assertEquals(42, queue.poll());
         assertTrue(queue.isEmpty());

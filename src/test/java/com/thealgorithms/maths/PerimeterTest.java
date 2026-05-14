@@ -8,18 +8,18 @@ public class PerimeterTest {
     // Perimeter of Regular polygon
     @Test
     void testcase1() {
-        Assertions.assertEquals(20.0, Perimeter.perimeterRegularPolygon(4, 5));
+        Assertions.assertEquals(20
     }
 
     @Test
     void testcase2() {
-        Assertions.assertEquals(30.0, Perimeter.perimeterRegularPolygon(5, 6));
+        Assertions.assertEquals(30
     }
 
     // Perimeter of Rectangle
     @Test
     void testcase3() {
-        Assertions.assertEquals(18.0, Perimeter.perimeterRectangle(4, 5));
+        Assertions.assertEquals(18
     }
 
     @Test

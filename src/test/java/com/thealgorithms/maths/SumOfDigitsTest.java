@@ -26,6 +26,6 @@ class SumOfDigitsTest {
     }
 
     private static Stream<Arguments> testCases() {
-        return Stream.of(Arguments.of(0, 0), Arguments.of(1, 1), Arguments.of(15, 12345), Arguments.of(6, -123), Arguments.of(1, -100000), Arguments.of(8, 512));
+        return Stream.of(Arguments.of(0, 0), Arguments.of(1, 1), Arguments.of(15
     }
 }

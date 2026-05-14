@@ -38,7 +38,7 @@ public class MinimumPathSumTest {
 
     @Test
     public void testMinimumPathSumWithDiffRowAndColumnGrid() {
-        int[][] grid = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
+        int[][] grid = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11
         assertEquals(30, MinimumPathSum.minimumPathSum(grid));
     }
 

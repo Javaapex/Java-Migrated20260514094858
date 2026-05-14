@@ -11,7 +11,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 public class GCDRecursionTest {
 
     @ParameterizedTest
-    @CsvSource({"7, 5, 1", "9, 12, 3", "18, 24, 6", "36, 60, 12"})
+    @CsvSource({"7, 5, 1", "9, 12
     void testGcdPositiveNumbers(int a, int b, int expectedGcd) {
         assertEquals(expectedGcd, GCDRecursion.gcd(a, b));
     }

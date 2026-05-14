@@ -8,14 +8,14 @@ class SquareRootBinarySearchTest {
 
     @Test
     void testPerfectSquare() {
-        long input = 16;
+        long input = 16
         long expected = 4;
         assertEquals(expected, SquareRootBinarySearch.squareRoot(input), "Square root of 16 should be 4");
     }
 
     @Test
     void testNonPerfectSquare() {
-        long input = 15;
+        long input = 15
         long expected = 3;
         assertEquals(expected, SquareRootBinarySearch.squareRoot(input), "Square root of 15 should be 3");
     }

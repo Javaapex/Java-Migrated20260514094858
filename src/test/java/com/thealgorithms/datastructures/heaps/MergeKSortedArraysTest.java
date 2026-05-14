@@ -12,6 +12,8 @@ public class MergeKSortedArraysTest {
     @ParameterizedTest
     @MethodSource("provideTestCases")
     public void testMergeKArrays(int[][] arrays, int[] expected) {
+        Objects.requireNonNull(expected, "expected cannot be null");
+        Objects.requireNonNull(arrays, "arrays cannot be null");
         assertArrayEquals(expected, MergeKSortedArrays.mergeKArrays(arrays));
     }
 

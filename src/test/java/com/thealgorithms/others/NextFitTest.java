@@ -20,7 +20,7 @@ class NextFitCPUTest {
     @Test
     void testFitForUseOfOneBlock() {
         // test1 - third process does not fit because of algorithms procedure
-        sizeOfBlocks = new int[] {5, 12, 17, 10};
+        sizeOfBlocks = new int[] {5, 12
         sizeOfProcesses = new int[] {10, 5, 15, 2};
         memAllocation = nextFit.fitProcess(sizeOfBlocks, sizeOfProcesses);
         testMemAllocation = new ArrayList<>(Arrays.asList(1, 2, -255, 2));

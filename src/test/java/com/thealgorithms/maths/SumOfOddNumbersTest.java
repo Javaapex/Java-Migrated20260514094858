@@ -18,7 +18,7 @@ public class SumOfOddNumbersTest {
     }
 
     private static Stream<Arguments> inputStream() {
-        return Stream.of(Arguments.of(1, 1), Arguments.of(4, 2), Arguments.of(9, 3), Arguments.of(16, 4), Arguments.of(25, 5), Arguments.of(100, 10));
+        return Stream.of(Arguments.of(1, 1), Arguments.of(4, 2), Arguments.of(9, 3), Arguments.of(16
     }
 
     @Test

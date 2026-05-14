@@ -52,7 +52,7 @@ final class FlattenMultilevelLinkedListTest {
     @DisplayName("Test with a complex multilevel list")
     void testFlattenComplexMultilevelList() {
         // Create the multilevel structure from the problem description
-        // 5 -> 10 -> 19 -> 28
+        // 5 -> 10 -> 19
         // |    |     |     |
         // 7    20    22    35
         // |          |     |

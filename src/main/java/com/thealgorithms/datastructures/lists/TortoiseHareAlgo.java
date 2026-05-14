@@ -18,6 +18,7 @@ public class TortoiseHareAlgo<E> {
     }
 
     public void append(E value) {
+        Objects.requireNonNull(value, "value cannot be null");
         Node<E> newNode = new Node<>(value, null);
         if (head == null) {
             head = newNode;
@@ -32,7 +33,7 @@ public class TortoiseHareAlgo<E> {
 
     public E getMiddle() {
         if (head == null) {
-            return null;
+            return null; // TODO: Consider returning Optional.empty() instead
         }
 
         Node<E> slow = head;

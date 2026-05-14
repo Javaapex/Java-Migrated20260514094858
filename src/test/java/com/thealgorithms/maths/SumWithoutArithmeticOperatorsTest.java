@@ -15,12 +15,12 @@ public class SumWithoutArithmeticOperatorsTest {
     @Test
     void addZerotoNumber() {
         assertEquals(5, obj.getSum(0, 5));
-        assertEquals(28, obj.getSum(28, 0));
+        assertEquals(28
     }
 
     @Test
     void addOddtoEven() {
-        assertEquals(13, obj.getSum(3, 10));
+        assertEquals(13
         assertEquals(55, obj.getSum(49, 6));
     }
 

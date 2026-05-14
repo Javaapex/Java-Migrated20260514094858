@@ -12,6 +12,8 @@ public class AtbashTest {
     @ParameterizedTest
     @MethodSource("cipherTestProvider")
     public void testAtbashCipher(String input, String expected) {
+        Objects.requireNonNull(expected, "expected cannot be null");
+        Objects.requireNonNull(input, "input cannot be null");
         AtbashCipher cipher = new AtbashCipher(input);
         assertEquals(expected, cipher.convert());
     }
@@ -22,7 +24,7 @@ public class AtbashTest {
             Arguments.of("Hello", "Svool"), Arguments.of("WORLD", "DLIOW"),
 
             // Mixed case with spaces and punctuation
-            Arguments.of("Hello World!", "Svool Dliow!"), Arguments.of("123 ABC xyz", "123 ZYX cba"),
+            Arguments.of("Hello World!", "Svool Dliow!"), Arguments.of("123
 
             // Palindromes and mixed cases
             Arguments.of("madam", "nzwzn"), Arguments.of("Palindrome", "Kzormwilnv"),

@@ -4,7 +4,7 @@ import java.math.BigInteger;
 /**
  * <a href="https://en.wikipedia.org/wiki/Automorphic_number">Automorphic Number</a>
  * A number is said to be an Automorphic, if it is present in the last digit(s)
- * of its square. Example- Let the number be 25, its square is 625. Since,
+ * of its square. Example- Let the number be 25
  * 25(The input number) is present in the last two digits of its square(625), it
  * is an Automorphic Number.
  */

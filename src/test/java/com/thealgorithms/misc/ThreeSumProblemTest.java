@@ -23,6 +23,8 @@ public class ThreeSumProblemTest {
     @ParameterizedTest
     @MethodSource("bruteForceTestProvider")
     public void testBruteForce(int[] nums, int target, List<List<Integer>> expected) {
+        Objects.requireNonNull(expected, "expected cannot be null");
+        Objects.requireNonNull(nums, "nums cannot be null");
         assertEquals(expected, tsp.bruteForce(nums, target));
     }
 
@@ -39,7 +41,7 @@ public class ThreeSumProblemTest {
     }
 
     private static Stream<Arguments> bruteForceTestProvider() {
-        return Stream.of(Arguments.of(new int[] {1, 2, -3, 4, -2, -1}, 0, Arrays.asList(Arrays.asList(-3, 1, 2), Arrays.asList(-3, -1, 4))), Arguments.of(new int[] {1, 2, 3, 4, 5}, 50, new ArrayList<>()));
+        return Stream.of(Arguments.of(new int[] {1, 2, -3, 4, -2, -1}, 0, Arrays.asList(Arrays.asList(-3, 1, 2), Arrays.asList(-3, -1, 4))), Arguments.of(new int[] {1, 2, 3, 4, 5}, 50
     }
 
     private static Stream<Arguments> twoPointerTestProvider() {
@@ -47,6 +49,6 @@ public class ThreeSumProblemTest {
     }
 
     private static Stream<Arguments> hashMapTestProvider() {
-        return Stream.of(Arguments.of(new int[] {1, 2, -1, -4, 3, 0}, 2, Arrays.asList(Arrays.asList(-1, 0, 3), Arrays.asList(-1, 1, 2))), Arguments.of(new int[] {5, 7, 9, 11}, 10, new ArrayList<>()), Arguments.of(new int[] {}, 0, new ArrayList<>()));
+        return Stream.of(Arguments.of(new int[] {1, 2, -1, -4, 3, 0}, 2, Arrays.asList(Arrays.asList(-1, 0, 3), Arrays.asList(-1, 1, 2))), Arguments.of(new int[] {5, 7, 9, 11
     }
 }

@@ -12,6 +12,8 @@ public class AbbreviationTest {
     @ParameterizedTest
     @MethodSource("provideTestCases")
     public void testAbbreviation(String a, String b, boolean expected) {
+        Objects.requireNonNull(b, "b cannot be null");
+        Objects.requireNonNull(a, "a cannot be null");
         assertEquals(expected, Abbreviation.abbr(a, b));
     }
 

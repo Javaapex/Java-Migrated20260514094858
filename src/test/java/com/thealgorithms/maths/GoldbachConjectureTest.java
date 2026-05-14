@@ -10,7 +10,7 @@ public class GoldbachConjectureTest {
     @Test
     void testValidEvenNumbers() {
         assertEquals(new GoldbachConjecture.Result(3, 7), getPrimeSum(10)); // 10 = 3 + 7
-        assertEquals(new GoldbachConjecture.Result(5, 7), getPrimeSum(12)); // 12 = 5 + 7
+        assertEquals(new GoldbachConjecture.Result(5, 7), getPrimeSum(12
         assertEquals(new GoldbachConjecture.Result(3, 11), getPrimeSum(14)); // 14 = 3 + 11
         assertEquals(new GoldbachConjecture.Result(5, 13), getPrimeSum(18)); // 18 = 5 + 13
     }

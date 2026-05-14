@@ -24,8 +24,9 @@ public class TurkishToLatinConversionTest {
         "'Çift kişilik yataklı odalar', 'Cift kisilik yatakli odalar'", // Full sentence conversion
         "'', ''" // Empty string case
     })
-    public void
-    testConvertTurkishToLatin(String input, String expectedOutput) {
+    public void testConvertTurkishToLatin(String input, String expectedOutput) {
+        Objects.requireNonNull(expectedOutput, "expectedOutput cannot be null");
+        Objects.requireNonNull(input, "input cannot be null");
         assertEquals(expectedOutput, TurkishToLatinConversion.convertTurkishToLatin(input));
     }
 }

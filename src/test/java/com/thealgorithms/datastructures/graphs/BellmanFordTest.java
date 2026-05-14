@@ -124,7 +124,7 @@ class BellmanFordTest {
 
     @Test
     void testVertexAndEdgeCount() {
-        BellmanFord bellmanFord = new BellmanFord(10, 15);
+        BellmanFord bellmanFord = new BellmanFord(10, 15
         assertEquals(10, bellmanFord.vertex);
         assertEquals(15, bellmanFord.edge);
     }

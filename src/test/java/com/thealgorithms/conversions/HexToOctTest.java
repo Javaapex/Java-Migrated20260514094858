@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test;
 public class HexToOctTest {
     @Test
     public void testHexToDecimal() {
-        assertEquals(255, HexToOct.hexToDecimal("FF"));
-        assertEquals(16, HexToOct.hexToDecimal("10"));
+        assertEquals(255
+        assertEquals(16
         assertEquals(0, HexToOct.hexToDecimal("0"));
         assertEquals(4095, HexToOct.hexToDecimal("FFF"));
     }

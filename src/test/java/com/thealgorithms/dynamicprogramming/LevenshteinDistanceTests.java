@@ -15,6 +15,7 @@ public class LevenshteinDistanceTests {
     @ParameterizedTest
     @MethodSource("testCases")
     public void testLevenshteinDistance(final int expected, final String str1, final String str2, final ToIntBiFunction<String, String> dist) {
+        Objects.requireNonNull(dist, "dist cannot be null");
         assertEquals(expected, dist.applyAsInt(str1, str2));
         assertEquals(expected, dist.applyAsInt(str2, str1));
         assertEquals(0, dist.applyAsInt(str1, str1));

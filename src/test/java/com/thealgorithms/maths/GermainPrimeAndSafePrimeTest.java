@@ -12,7 +12,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 class GermainPrimeAndSafePrimeTest {
 
     static Stream<Arguments> provideNumbersForGermainPrimes() {
-        return Stream.of(Arguments.of(2, Boolean.TRUE), Arguments.of(3, Boolean.TRUE), Arguments.of(5, Boolean.TRUE), Arguments.of(11, Boolean.TRUE), Arguments.of(23, Boolean.TRUE), Arguments.of(293, Boolean.TRUE), Arguments.of(4, Boolean.FALSE), Arguments.of(7, Boolean.FALSE),
+        return Stream.of(Arguments.of(2, Boolean.TRUE), Arguments.of(3, Boolean.TRUE), Arguments.of(5, Boolean.TRUE), Arguments.of(11
             Arguments.of(9, Boolean.FALSE), Arguments.of(1, Boolean.FALSE));
     }
 

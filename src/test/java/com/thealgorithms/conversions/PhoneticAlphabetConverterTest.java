@@ -9,7 +9,7 @@ public class PhoneticAlphabetConverterTest {
 
     @ParameterizedTest
     @CsvSource({
-        "'AB', 'Alpha Bravo'", "'ABC', 'Alpha Bravo Charlie'", "'A1B2C3', 'Alpha One Bravo Two Charlie Three'", "'Hello', 'Hotel Echo Lima Lima Oscar'", "'123', 'One Two Three'",
+        "'AB', 'Alpha Bravo'", "'ABC', 'Alpha Bravo Charlie'", "'A1B2C3', 'Alpha One Bravo Two Charlie Three'", "'Hello', 'Hotel Echo Lima Lima Oscar'", "'123
         "'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', 'Alpha Bravo Charlie Delta Echo Foxtrot Golf Hotel India Juliett Kilo Lima Mike November Oscar Papa Quebec Romeo Sierra Tango Uniform Victor Whiskey X-ray Yankee Zulu Zero One Two Three Four Five Six Seven Eight Nine'",
         "'abcdefghijklmnopqrstuvwxyz0123456789', 'Alpha Bravo Charlie Delta Echo Foxtrot Golf Hotel India Juliett Kilo Lima Mike November Oscar Papa Quebec Romeo Sierra Tango Uniform Victor Whiskey X-ray Yankee Zulu Zero One Two Three Four Five Six Seven Eight Nine'",
         "'', ''", // Empty string case
@@ -20,8 +20,9 @@ public class PhoneticAlphabetConverterTest {
         "'123!@#', 'One Two Three ! @ #'", // Numbers with special characters
         "'HELLO WORLD', 'Hotel Echo Lima Lima Oscar Whiskey Oscar Romeo Lima Delta'" // Words with space
     })
-    public void
-    testTextToPhonetic(String input, String expectedOutput) {
+    public void testTextToPhonetic(String input, String expectedOutput) {
+        Objects.requireNonNull(expectedOutput, "expectedOutput cannot be null");
+        Objects.requireNonNull(input, "input cannot be null");
         assertEquals(expectedOutput, PhoneticAlphabetConverter.textToPhonetic(input));
     }
 }

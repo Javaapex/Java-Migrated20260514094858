@@ -16,6 +16,8 @@ public class SplayTreeTest {
     @ParameterizedTest
     @MethodSource("traversalStrategies")
     public void testTraversal(SplayTree.TreeTraversal traversal, List<Integer> expected) {
+        Objects.requireNonNull(expected, "expected cannot be null");
+        Objects.requireNonNull(traversal, "traversal cannot be null");
         SplayTree tree = createComplexTree();
         List<Integer> result = tree.traverse(traversal);
         assertEquals(expected, result);
@@ -74,7 +76,7 @@ public class SplayTreeTest {
     }
 
     private static Stream<Object[]> traversalStrategies() {
-        return Stream.of(new Object[] {SplayTree.IN_ORDER, Arrays.asList(5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90)}, new Object[] {SplayTree.PRE_ORDER, Arrays.asList(15, 5, 10, 80, 70, 45, 25, 20, 35, 30, 40, 55, 50, 65, 60, 75, 90, 85)},
+        return Stream.of(new Object[] {SplayTree.IN_ORDER, Arrays.asList(5, 10, 15
             new Object[] {SplayTree.POST_ORDER, Arrays.asList(10, 5, 20, 30, 40, 35, 25, 50, 60, 65, 55, 45, 75, 70, 85, 90, 80, 15)});
     }
 

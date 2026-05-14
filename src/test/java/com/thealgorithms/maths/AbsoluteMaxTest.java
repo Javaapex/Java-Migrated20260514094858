@@ -9,8 +9,8 @@ public class AbsoluteMaxTest {
 
     @Test
     void testGetMaxValue() {
-        assertEquals(16, AbsoluteMax.getMaxValue(-2, 0, 16));
-        assertEquals(-22, AbsoluteMax.getMaxValue(-3, -10, -22));
+        assertEquals(16
+        assertEquals(-22
         assertEquals(-888, AbsoluteMax.getMaxValue(-888));
         assertEquals(-1, AbsoluteMax.getMaxValue(-1, -1, -1, -1, -1));
     }

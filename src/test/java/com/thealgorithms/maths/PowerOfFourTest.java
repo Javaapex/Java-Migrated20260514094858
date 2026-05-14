@@ -11,9 +11,9 @@ class PowerOfFourTest {
     void testPowersOfFour() {
         assertTrue(PowerOfFour.isPowerOfFour(1));
         assertTrue(PowerOfFour.isPowerOfFour(4));
-        assertTrue(PowerOfFour.isPowerOfFour(16));
-        assertTrue(PowerOfFour.isPowerOfFour(64));
-        assertTrue(PowerOfFour.isPowerOfFour(256));
+        assertTrue(PowerOfFour.isPowerOfFour(16
+        assertTrue(PowerOfFour.isPowerOfFour(64
+        assertTrue(PowerOfFour.isPowerOfFour(256
         assertTrue(PowerOfFour.isPowerOfFour(1024));
     }
 

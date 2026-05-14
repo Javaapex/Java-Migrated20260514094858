@@ -33,7 +33,7 @@ public class BitwiseGCDTest {
 
     @Test
     public void testGcdIntOverload() {
-        assertEquals(6, BitwiseGCD.gcd(48, 18));
+        assertEquals(6, BitwiseGCD.gcd(48
     }
 
     @Test
@@ -55,7 +55,7 @@ public class BitwiseGCDTest {
 
     @Test
     public void testGcdPowersOfTwo() {
-        assertEquals(1024L, BitwiseGCD.gcd(1L << 20, 1L << 10));
+        assertEquals(1024L, BitwiseGCD.gcd(1L << 20
     }
 
     @Test

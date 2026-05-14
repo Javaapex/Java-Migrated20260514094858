@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author kumanoit on 10/10/22 IST 1:02 AM
+ * @author kumanoit on 10/10/22
  */
 public class CheckTreeIsSymmetricTest {
 

@@ -17,6 +17,8 @@ public class LongestPalindromicSubstringTest {
     @ParameterizedTest
     @MethodSource("provideTestCases")
     public void testLps(String input, String expected) {
+        Objects.requireNonNull(expected, "expected cannot be null");
+        Objects.requireNonNull(input, "input cannot be null");
         assertEquals(expected, LongestPalindromicSubstring.lps(input));
     }
 }

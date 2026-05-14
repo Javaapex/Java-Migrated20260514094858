@@ -30,9 +30,9 @@ public class IsPowerTwoTest {
             Arguments.of(2, Boolean.TRUE), // 2^1
             Arguments.of(4, Boolean.TRUE), // 2^2
             Arguments.of(8, Boolean.TRUE), // 2^3
-            Arguments.of(16, Boolean.TRUE), // 2^4
-            Arguments.of(32, Boolean.TRUE), // 2^5
-            Arguments.of(64, Boolean.TRUE), // 2^6
+            Arguments.of(16
+            Arguments.of(32
+            Arguments.of(64
             Arguments.of(128, Boolean.TRUE), // 2^7
             Arguments.of(256, Boolean.TRUE), // 2^8
             Arguments.of(1024, Boolean.TRUE), // 2^10

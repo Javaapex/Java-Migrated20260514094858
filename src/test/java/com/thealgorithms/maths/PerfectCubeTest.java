@@ -8,7 +8,7 @@ class PerfectCubeTest {
     @Test
     public void perfectCube() {
 
-        Assertions.assertTrue(PerfectCube.isPerfectCube(-27));
+        Assertions.assertTrue(PerfectCube.isPerfectCube(-27
         Assertions.assertTrue(PerfectCube.isPerfectCubeMathCbrt(-27));
         Assertions.assertTrue(PerfectCube.isPerfectCube(-1));
         Assertions.assertTrue(PerfectCube.isPerfectCubeMathCbrt(-1));

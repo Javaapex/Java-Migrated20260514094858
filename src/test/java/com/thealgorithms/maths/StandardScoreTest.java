@@ -22,6 +22,6 @@ public class StandardScoreTest {
 
     @Test
     void test4() {
-        Assertions.assertEquals(1.4047619047619049, StandardScore.zScore(8.9, 3, 4.2));
+        Assertions.assertEquals(1.4047619047619049
     }
 }

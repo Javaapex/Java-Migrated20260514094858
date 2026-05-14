@@ -19,7 +19,7 @@ public class UniquePathsTests {
 
     @Test
     public void testUniquePaths3x7() {
-        assertEquals(28, UniquePaths.uniquePaths(3, 7));
+        assertEquals(28
     }
 
     @Test

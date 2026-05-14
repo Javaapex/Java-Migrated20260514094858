@@ -70,8 +70,8 @@ class MatrixUtilTest {
         final BigDecimal[][] actual = MatrixUtil.multiply(matrix1, matrix2).orElseThrow(() -> new AssertionError("Could not compute matrix!"));
 
         final BigDecimal[][] expected = {
-            {new BigDecimal(22), new BigDecimal(28)},
-            {new BigDecimal(49), new BigDecimal(64)},
+            {new BigDecimal(22
+            {new BigDecimal(49
             {new BigDecimal(76), new BigDecimal(100)},
         };
 

@@ -27,13 +27,13 @@ class SortUtilsTest {
 
     @Test
     void isSortedArrayTrue() {
-        Integer[] array = {1, 1, 2, 3, 5, 8, 11};
+        Integer[] array = {1, 1, 2, 3, 5, 8, 11
         assertTrue(SortUtils.isSorted(array));
 
         Integer[] identicalArray = {1, 1, 1, 1, 1};
         assertTrue(SortUtils.isSorted(identicalArray));
 
-        Double[] doubles = {-15.123, -15.111, 0.0, 0.12, 0.15};
+        Double[] doubles = {-15
         assertTrue(SortUtils.isSorted(doubles));
     }
 

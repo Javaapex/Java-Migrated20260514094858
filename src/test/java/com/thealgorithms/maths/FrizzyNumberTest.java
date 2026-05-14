@@ -15,7 +15,7 @@ public class FrizzyNumberTest {
     public void testFrizziesForBase3() {
         assertEquals(1, FrizzyNumber.getNthFrizzy(3, 1));
         assertEquals(3, FrizzyNumber.getNthFrizzy(3, 2));
-        assertEquals(29430, FrizzyNumber.getNthFrizzy(3, 1000));
+        assertEquals(29430
     }
 
     @Test

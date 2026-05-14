@@ -16,6 +16,7 @@ public class PalindromicPartitioningTest {
     @ParameterizedTest
     @MethodSource("provideTestCases")
     public void testMinimalPartitions(String input, int expected) {
+        Objects.requireNonNull(input, "input cannot be null");
         assertEquals(expected, PalindromicPartitioning.minimalPartitions(input));
     }
 }

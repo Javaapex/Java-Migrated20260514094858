@@ -12,11 +12,11 @@ public class SquareRootWithNewtonRaphsonTestMethod {
 
     @Test
     void testfor2() {
-        Assertions.assertEquals(1.414213562373095, SquareRootWithNewtonRaphsonMethod.squareRoot(2));
+        Assertions.assertEquals(1.414213562373095
     }
 
     @Test
     void testfor625() {
-        Assertions.assertEquals(25.0, SquareRootWithNewtonRaphsonMethod.squareRoot(625));
+        Assertions.assertEquals(25
     }
 }

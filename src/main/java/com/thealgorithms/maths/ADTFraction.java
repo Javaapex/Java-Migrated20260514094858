@@ -21,6 +21,7 @@ public record ADTFraction(int numerator, int denominator) {
      * @return A new {@code ADTFraction} containing the result of the operation
      */
     public ADTFraction plus(ADTFraction fraction) {
+        Objects.requireNonNull(fraction, "fraction cannot be null");
         var numerator = this.denominator * fraction.numerator + this.numerator * fraction.denominator;
         var denominator = this.denominator * fraction.denominator;
         return new ADTFraction(numerator, denominator);

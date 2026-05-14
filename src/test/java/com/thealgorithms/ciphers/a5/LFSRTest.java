@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 // Basic tests for sanity check
 class LFSRTest {
 
-    // Represents 0100 1110 0010 1111 0100 1101 0111 1100 0001 1110 1011 1000 1000 1011 0011 1010
+    // Represents 0100
     // But we start reverse way because bitset starts from most right (1010)
     byte[] sessionKeyBytes = {
         58,

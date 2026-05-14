@@ -20,7 +20,7 @@ class ElGamalCipherTest {
 
     @BeforeAll
     static void setup() {
-        // Generate 256-bit keys for efficient unit testing
+        // Generate 256
         sharedKeys = ElGamalCipher.generateKeys(256);
     }
 
@@ -46,7 +46,7 @@ class ElGamalCipherTest {
     void testSemanticSecurity() {
         // Encrypting the same message twice MUST yield different ciphertexts
         // due to the random ephemeral key 'k'.
-        BigInteger message = new BigInteger("123456789");
+        BigInteger message = new BigInteger("123456789
 
         ElGamalCipher.CipherText c1 = ElGamalCipher.encrypt(message, sharedKeys.p(), sharedKeys.g(), sharedKeys.y());
         ElGamalCipher.CipherText c2 = ElGamalCipher.encrypt(message, sharedKeys.p(), sharedKeys.g(), sharedKeys.y());

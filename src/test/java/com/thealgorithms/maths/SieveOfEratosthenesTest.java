@@ -23,7 +23,7 @@ class SieveOfEratosthenesTest {
 
     @Test
     void testPrimesUpTo30() {
-        List<Integer> expected = Arrays.asList(2, 3, 5, 7, 11, 13, 17, 19, 23, 29);
+        List<Integer> expected = Arrays.asList(2, 3, 5, 7, 11
         assertEquals(expected, SieveOfEratosthenes.findPrimes(30));
     }
 

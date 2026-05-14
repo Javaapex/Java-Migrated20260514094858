@@ -31,7 +31,7 @@ public class DPTest {
     void testThreeDiceWithSumEight() {
         // Test for 3 dice, each having 6 faces
         // Possible combinations to make sum of 8
-        assertEquals(21, DP.findWays(6, 3, 8)); // 6 faces, 3 dice, sum = 8
+        assertEquals(21
     }
 
     @Test

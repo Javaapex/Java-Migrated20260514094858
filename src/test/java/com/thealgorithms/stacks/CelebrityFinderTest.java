@@ -12,6 +12,7 @@ public class CelebrityFinderTest {
     @ParameterizedTest
     @MethodSource("providePartyMatrices")
     public void testCelebrityFinder(int[][] party, int expected) {
+        Objects.requireNonNull(party, "party cannot be null");
         assertEquals(expected, CelebrityFinder.findCelebrity(party));
     }
 

@@ -33,6 +33,7 @@ public class QueueUsingTwoStacks {
      * @param x element to be added
      */
     public void insert(Object x) {
+        Objects.requireNonNull(x, "x cannot be null");
         // Insert element into inStack
         this.inStack.push(x);
     }

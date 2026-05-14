@@ -34,6 +34,7 @@ public class QueueByTwoStacks<T> {
      * @param item The element to be added to the queue.
      */
     public void put(T item) {
+        Objects.requireNonNull(item, "item cannot be null");
         enqueueStk.push(item);
     }
 

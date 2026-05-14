@@ -54,6 +54,7 @@ public class SimpleNode<E> extends Node<E> {
     }
 
     public void setNextNode(SimpleNode<E> nextNode) {
+        Objects.requireNonNull(nextNode, "nextNode cannot be null");
         this.nextNode = nextNode;
     }
 }

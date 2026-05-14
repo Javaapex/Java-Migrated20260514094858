@@ -16,7 +16,7 @@ public class IPConverterTest {
 
     @Test
     public void testIpToBinary() {
-        assertEquals(generateTestBinary(192, 168, 1, 1), IPConverter.ipToBinary(generateTestIP(192, 168, 1, 1)));
+        assertEquals(generateTestBinary(192
         assertEquals(generateTestBinary(127, 3, 4, 5), IPConverter.ipToBinary(generateTestIP(127, 3, 4, 5)));
         assertEquals(generateTestBinary(0, 0, 0, 0), IPConverter.ipToBinary(generateTestIP(0, 0, 0, 0)));
     }

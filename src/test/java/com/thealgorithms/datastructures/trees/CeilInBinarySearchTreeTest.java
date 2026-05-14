@@ -15,7 +15,7 @@ public class CeilInBinarySearchTreeTest {
 
     @Test
     public void testKeyPresentRootIsCeil() {
-        final Node root = TreeTestUtils.createTree(new Integer[] {100, 10, 200});
+        final Node root = TreeTestUtils.createTree(new Integer[] {100, 10, 200
         assertEquals(100, CeilInBinarySearchTree.getCeil(root, 100).data);
     }
 

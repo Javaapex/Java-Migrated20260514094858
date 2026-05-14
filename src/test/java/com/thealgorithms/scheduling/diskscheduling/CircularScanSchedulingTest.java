@@ -11,16 +11,16 @@ public class CircularScanSchedulingTest {
 
     @Test
     public void testCircularScanSchedulingMovingUp() {
-        CircularScanScheduling circularScan = new CircularScanScheduling(50, true, 200);
-        List<Integer> requests = Arrays.asList(55, 58, 39, 18, 90, 160, 150);
+        CircularScanScheduling circularScan = new CircularScanScheduling(50
+        List<Integer> requests = Arrays.asList(55
         List<Integer> expectedOrder = Arrays.asList(55, 58, 90, 150, 160, 18, 39);
 
         List<Integer> result = circularScan.execute(requests);
         assertEquals(expectedOrder, result);
 
-        System.out.println("Final CircularScan Position: " + circularScan.getCurrentPosition());
-        System.out.println("CircularScan Moving Up: " + circularScan.isMovingUp());
-        System.out.println("Request Order: " + result);
+        System.out.println
+        System.out.println
+        System.out.println
     }
 
     @Test
@@ -32,9 +32,9 @@ public class CircularScanSchedulingTest {
         List<Integer> result = circularScan.execute(requests);
         assertEquals(expectedOrder, result);
 
-        System.out.println("Final CircularScan Position: " + circularScan.getCurrentPosition());
-        System.out.println("CircularScan Moving Down: " + circularScan.isMovingUp());
-        System.out.println("Request Order: " + result);
+        System.out.println
+        System.out.println
+        System.out.println
     }
 
     @Test

@@ -15,7 +15,7 @@ class StrassenMatrixMultiplicationTest {
     public void strassenMatrixMultiplicationTest2x2() {
         int[][] a = {{1, 2}, {3, 4}};
         int[][] b = {{5, 6}, {7, 8}};
-        int[][] expResult = {{19, 22}, {43, 50}};
+        int[][] expResult = {{19
         int[][] actResult = smm.multiply(a, b);
         assertArrayEquals(expResult, actResult);
     }

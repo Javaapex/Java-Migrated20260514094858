@@ -11,8 +11,8 @@ import org.junit.jupiter.api.Test;
 class KrishnamurthyNumberTest {
 
     /**
-     * Test with known Krishnamurthy number 145.
-     * 1! + 4! + 5! = 1 + 24 + 120 = 145
+     * Test with known Krishnamurthy number 145
+     * 1! + 4! + 5! = 1 + 24
      */
     @Test
     void testIsKrishnamurthyWith145() {

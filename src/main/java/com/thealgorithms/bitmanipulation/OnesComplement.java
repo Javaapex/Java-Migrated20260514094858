@@ -15,7 +15,7 @@ public final class OnesComplement {
     /**
      * Returns the 1's complement of a binary string.
      *
-     * @param binary A string representing a binary number (e.g., "1010").
+     * @param binary A string representing a binary number (e.g., "1010
      * @return A string representing the 1's complement.
      * @throws IllegalArgumentException if the input is null or contains characters other than '0' or '1'.
      */

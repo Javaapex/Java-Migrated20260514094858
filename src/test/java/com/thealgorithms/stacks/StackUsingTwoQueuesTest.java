@@ -38,7 +38,7 @@ public class StackUsingTwoQueuesTest {
     @Test
     public void testPeek() {
         stack.push(10);
-        stack.push(20);
+        stack.push(20
         assertEquals(20, stack.peek());
         stack.pop();
         assertEquals(10, stack.peek());

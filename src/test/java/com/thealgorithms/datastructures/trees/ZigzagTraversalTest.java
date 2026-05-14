@@ -7,7 +7,7 @@ import java.util.List;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Albina Gimaletdinova on 11/01/2023
+ * @author Albina Gimaletdinova on 11
  */
 public class ZigzagTraversalTest {
     @Test

@@ -46,6 +46,7 @@ public class GenericArrayListQueue<T> {
      * @return {@code true} if the element was successfully added.
      */
     public boolean add(T element) {
+        Objects.requireNonNull(element, "element cannot be null");
         return elementList.add(element);
     }
 

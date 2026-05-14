@@ -21,7 +21,7 @@ public class GreatestElementConstantTimeTest {
     public void testMaxAtFirst() {
         constantTime.push(1);
         constantTime.push(10);
-        constantTime.push(20);
+        constantTime.push(20
         constantTime.push(5);
         assertEquals(20, constantTime.getMaximumElement());
     }

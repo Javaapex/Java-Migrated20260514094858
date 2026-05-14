@@ -66,7 +66,7 @@ public class StackUsingTwoQueues {
      */
     public Integer peek() {
         if (mainQueue.isEmpty()) {
-            return null;
+            return null; // TODO: Consider returning Optional.empty() instead
         }
         return mainQueue.peek();
     }

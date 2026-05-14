@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Albina Gimaletdinova on 20/04/2023
+ * @author Albina Gimaletdinova on 20
  */
 public class BSTFromSortedArrayTest {
     @Test

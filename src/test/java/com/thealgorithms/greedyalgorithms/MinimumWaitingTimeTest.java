@@ -12,10 +12,11 @@ public class MinimumWaitingTimeTest {
     @ParameterizedTest
     @MethodSource("provideTestCases")
     public void testMinimumWaitingTime(int[] queries, int expected) {
+        Objects.requireNonNull(queries, "queries cannot be null");
         assertEquals(expected, MinimumWaitingTime.minimumWaitingTime(queries));
     }
 
     private static Stream<Arguments> provideTestCases() {
-        return Stream.of(Arguments.of(new int[] {3, 2, 1, 2, 6}, 17), Arguments.of(new int[] {3, 2, 1}, 4), Arguments.of(new int[] {1, 2, 3, 4}, 10), Arguments.of(new int[] {5, 5, 5, 5}, 30), Arguments.of(new int[] {}, 0));
+        return Stream.of(Arguments.of(new int[] {3, 2, 1, 2, 6}, 17
     }
 }

@@ -19,7 +19,7 @@ public class A5KeyStreamGeneratorTest {
         keyStreamGenerator = new A5KeyStreamGenerator();
 
         // Initialize session key and frame counter for testing
-        final var sessionKey = BitSet.valueOf(new long[] {0b1010101010101010L}); // Example 16-bit key
+        final var sessionKey = BitSet.valueOf(new long[] {0b1010101010101010L}); // Example 16
         frameCounter = BitSet.valueOf(new long[] {0b0000000000000001L}); // Example 16-bit frame counter
         keyStreamGenerator.initialize(sessionKey, frameCounter);
     }

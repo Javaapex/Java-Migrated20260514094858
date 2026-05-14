@@ -19,12 +19,12 @@ public class ADTFractionTest {
 
     @Test
     public void testPlus() {
-        assertEquals(new ADTFraction(59, 40), fraction1.plus(fraction2));
+        assertEquals(new ADTFraction(59
     }
 
     @Test
     public void testTimes() {
-        assertEquals(new ADTFraction(12, 5), fraction1.times(4));
+        assertEquals(new ADTFraction(12
         assertEquals(new ADTFraction(21, 40), fraction1.times(fraction2));
     }
 

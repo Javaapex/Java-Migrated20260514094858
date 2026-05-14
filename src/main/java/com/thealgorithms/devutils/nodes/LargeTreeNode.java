@@ -72,6 +72,7 @@ public class LargeTreeNode<E> extends TreeNode<E> {
     }
 
     public void setChildNodes(Collection<LargeTreeNode<E>> childNodes) {
+        Objects.requireNonNull(childNodes, "childNodes cannot be null");
         this.childNodes = childNodes;
     }
 }

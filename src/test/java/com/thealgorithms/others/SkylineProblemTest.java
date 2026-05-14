@@ -25,7 +25,7 @@ public class SkylineProblemTest {
     public void testTwoBuildingsSkyline() {
         SkylineProblem skylineProblem = new SkylineProblem();
         skylineProblem.building = new SkylineProblem.Building[2];
-        skylineProblem.add(1, 11, 5);
+        skylineProblem.add(1, 11
         skylineProblem.add(2, 6, 7);
 
         ArrayList<SkylineProblem.Skyline> result = skylineProblem.findSkyline(0, 1);

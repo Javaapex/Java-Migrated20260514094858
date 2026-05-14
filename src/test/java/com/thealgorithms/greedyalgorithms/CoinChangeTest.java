@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 public class CoinChangeTest {
     @Test
     public void testCoinChangeProblemWithValidAmount() {
-        ArrayList<Integer> expected = new ArrayList<>(Arrays.asList(500, 50, 20, 20, 1));
+        ArrayList<Integer> expected = new ArrayList<>(Arrays.asList(500
         ArrayList<Integer> coins = CoinChange.coinChangeProblem(591);
         assertEquals(expected, coins);
     }

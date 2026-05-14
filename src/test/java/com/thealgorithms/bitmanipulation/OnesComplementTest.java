@@ -18,8 +18,8 @@ public class OnesComplementTest {
     public void testOnesComplementAllZeroes() {
 
         // Test cases with all-zero binary strings
-        assertEquals("1111", OnesComplement.onesComplement("0000"));
-        assertEquals("111", OnesComplement.onesComplement("000"));
+        assertEquals("1111
+        assertEquals("111
         assertEquals("11", OnesComplement.onesComplement("00"));
         assertEquals("1", OnesComplement.onesComplement("0"));
     }
@@ -46,6 +46,7 @@ public class OnesComplementTest {
     @ParameterizedTest
     @NullAndEmptySource
     public void testOnesComplementNullOrEmptyInputThrowsException(String input) {
+        Objects.requireNonNull(input, "input cannot be null");
         IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> OnesComplement.onesComplement(input));
         assertEquals("Input must be a non-empty binary string.", exception.getMessage());
     }

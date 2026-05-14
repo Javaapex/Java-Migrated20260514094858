@@ -8,11 +8,11 @@ public class IntegerToRomanTest {
 
     @Test
     public void testIntegerToRoman() {
-        assertEquals("MCMXCIV", IntegerToRoman.integerToRoman(1994));
-        assertEquals("LVIII", IntegerToRoman.integerToRoman(58));
+        assertEquals("MCMXCIV", IntegerToRoman.integerToRoman(1994
+        assertEquals("LVIII", IntegerToRoman.integerToRoman(58
         assertEquals("IV", IntegerToRoman.integerToRoman(4));
         assertEquals("IX", IntegerToRoman.integerToRoman(9));
-        assertEquals("MMM", IntegerToRoman.integerToRoman(3000));
+        assertEquals("MMM", IntegerToRoman.integerToRoman(3000
     }
 
     @Test

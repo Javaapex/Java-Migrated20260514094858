@@ -8,7 +8,7 @@ class JobSchedulingWithDeadlineTest {
 
     @Test
     void testJobSequencingWithDeadlines1() {
-        JobSchedulingWithDeadline.Job[] jobs = {new JobSchedulingWithDeadline.Job(1, 1, 4, 20), new JobSchedulingWithDeadline.Job(2, 1, 1, 10), new JobSchedulingWithDeadline.Job(3, 1, 1, 40), new JobSchedulingWithDeadline.Job(4, 1, 1, 30)};
+        JobSchedulingWithDeadline.Job[] jobs = {new JobSchedulingWithDeadline.Job(1, 1, 4, 20
         int[] result = JobSchedulingWithDeadline.jobSequencingWithDeadlines(jobs);
         assertArrayEquals(new int[] {2, 60}, result); // Expected output: 2 jobs, 60 profit
     }

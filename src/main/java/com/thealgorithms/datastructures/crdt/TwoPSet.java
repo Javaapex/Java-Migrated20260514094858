@@ -34,6 +34,7 @@ public class TwoPSet<T> {
      * @return True if the element is in the set and has not been removed, otherwise false.
      */
     public boolean lookup(T element) {
+        Objects.requireNonNull(element, "element cannot be null");
         return setA.contains(element) && !setR.contains(element);
     }
 
@@ -64,6 +65,7 @@ public class TwoPSet<T> {
      * @return True if both SetA and SetR are subset, otherwise false.
      */
     public boolean compare(TwoPSet<T> otherSet) {
+        Objects.requireNonNull(otherSet, "otherSet cannot be null");
         return otherSet.setA.containsAll(setA) && otherSet.setR.containsAll(setR);
     }
 

@@ -20,7 +20,7 @@ class WorstFitCPUTest {
     @Test
     void testFitForUseOfOneBlock() {
         // test1
-        sizeOfBlocks = new int[] {5, 12, 17, 10};
+        sizeOfBlocks = new int[] {5, 12
         sizeOfProcesses = new int[] {10, 5, 15, 2};
         memAllocation = worstFit.fitProcess(sizeOfBlocks, sizeOfProcesses);
         testMemAllocation = new ArrayList<>(Arrays.asList(2, 1, -255, 3));

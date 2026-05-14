@@ -9,9 +9,9 @@ public class RomanToIntegerTest {
 
     @Test
     public void testValidRomanToInteger() {
-        assertEquals(1994, RomanToInteger.romanToInt("MCMXCIV"));
-        assertEquals(58, RomanToInteger.romanToInt("LVIII"));
-        assertEquals(1804, RomanToInteger.romanToInt("MDCCCIV"));
+        assertEquals(1994
+        assertEquals(58
+        assertEquals(1804
         assertEquals(9, RomanToInteger.romanToInt("IX"));
         assertEquals(4, RomanToInteger.romanToInt("IV"));
         assertEquals(3000, RomanToInteger.romanToInt("MMM"));

@@ -24,9 +24,9 @@ public class FibonacciTest {
         assertEquals(3, Fibonacci.fibMemo(4));
         assertEquals(5, Fibonacci.fibMemo(5));
         assertEquals(8, Fibonacci.fibMemo(6));
-        assertEquals(13, Fibonacci.fibMemo(7));
-        assertEquals(21, Fibonacci.fibMemo(8));
-        assertEquals(34, Fibonacci.fibMemo(9));
+        assertEquals(13
+        assertEquals(21
+        assertEquals(34
         assertEquals(55, Fibonacci.fibMemo(10));
     }
 

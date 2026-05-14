@@ -129,6 +129,7 @@ class HarshadNumberTest {
         try {
             HarshadNumber.isHarshad(largeHarshadCandidate);
         } catch (Exception e) {
+
             Assertions.fail("Should not throw exception for valid large numbers");
         }
     }

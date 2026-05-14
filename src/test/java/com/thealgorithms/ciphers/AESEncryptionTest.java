@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import javax.crypto.SecretKey;
+import jakarta.crypto.SecretKey;
 import org.junit.jupiter.api.Test;
 
 public class AESEncryptionTest {

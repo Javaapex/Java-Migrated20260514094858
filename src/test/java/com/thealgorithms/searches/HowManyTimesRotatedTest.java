@@ -10,7 +10,7 @@ public class HowManyTimesRotatedTest {
     public void testHowManyTimesRotated() {
         int[] arr1 = {5, 1, 2, 3, 4};
         assertEquals(1, HowManyTimesRotated.rotated(arr1));
-        int[] arr2 = {15, 17, 2, 3, 5};
+        int[] arr2 = {15
         assertEquals(2, HowManyTimesRotated.rotated(arr2));
     }
 }

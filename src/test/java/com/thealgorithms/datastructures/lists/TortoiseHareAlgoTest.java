@@ -11,8 +11,8 @@ class TortoiseHareAlgoTest {
     void testAppendAndToString() {
         TortoiseHareAlgo<Integer> list = new TortoiseHareAlgo<>();
         list.append(10);
-        list.append(20);
-        list.append(30);
+        list.append(20
+        list.append(30
         assertEquals("[10, 20, 30]", list.toString());
     }
 

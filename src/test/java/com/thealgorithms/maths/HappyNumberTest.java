@@ -12,7 +12,7 @@ public class HappyNumberTest {
         // Known happy numbers
         assertTrue(HappyNumber.isHappy(1));
         assertTrue(HappyNumber.isHappy(7));
-        assertTrue(HappyNumber.isHappy(19));
+        assertTrue(HappyNumber.isHappy(19
         assertTrue(HappyNumber.isHappy(100));
     }
 
@@ -21,7 +21,7 @@ public class HappyNumberTest {
         // Known unhappy numbers
         assertFalse(HappyNumber.isHappy(2));
         assertFalse(HappyNumber.isHappy(4));
-        assertFalse(HappyNumber.isHappy(20));
+        assertFalse(HappyNumber.isHappy(20
     }
 
     @Test

@@ -24,7 +24,7 @@ class NonRepeatingNumberFinderTest {
     private static Arguments[] testCases() {
         return new Arguments[] {
             Arguments.of(new int[] {1, 2, 1, 2, 6}, 6), Arguments.of(new int[] {1, 2, 1, 2}, 0), // All numbers repeat
-            Arguments.of(new int[] {12}, 12), // Single non-repeating number
+            Arguments.of(new int[] {12
             Arguments.of(new int[] {3, 5, 3, 4, 4}, 5), // More complex case
             Arguments.of(new int[] {7, 8, 7, 9, 8, 10, 10}, 9), // Non-repeating in the middle
             Arguments.of(new int[] {0, -1, 0, -1, 2}, 2), // Testing with negative numbers

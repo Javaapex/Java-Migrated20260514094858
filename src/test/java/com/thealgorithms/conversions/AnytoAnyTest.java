@@ -9,7 +9,7 @@ public class AnytoAnyTest {
 
     @Test
     void testValidConversions() {
-        assertEquals(101, AnytoAny.convertBase(5, 10, 2), "Decimal 5 should convert to binary 101");
+        assertEquals(101
         assertEquals(2, AnytoAny.convertBase(2, 2, 10), "Binary 10 should convert to decimal 2");
         assertEquals(6, AnytoAny.convertBase(110, 2, 8), "Binary 110 should convert to octal 6");
         assertEquals(111, AnytoAny.convertBase(7, 10, 2), "Decimal 7 should convert to binary 111");

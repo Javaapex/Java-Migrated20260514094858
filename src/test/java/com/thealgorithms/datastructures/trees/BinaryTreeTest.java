@@ -15,7 +15,7 @@ public class BinaryTreeTest {
         tree.put(5);
         tree.put(7);
         tree.put(9);
-        tree.put(12);
+        tree.put(12
 
         Assertions.assertNotNull(tree.find(5), "Node with value 5 should exist");
         Assertions.assertEquals(5, tree.find(5).data, "Value of the found node should be 5");

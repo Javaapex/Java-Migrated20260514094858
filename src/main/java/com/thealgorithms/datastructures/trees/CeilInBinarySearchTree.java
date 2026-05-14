@@ -10,7 +10,7 @@ import com.thealgorithms.datastructures.trees.BinaryTree.Node;
  * ceil value for a given key in O(lg(n)) time. In case if it is not present
  * return -1.
  *
- * Ex.1. [30,20,40,10,25,35,50] represents level order traversal of a binary
+ * Ex.1. [30
  * search tree. Find ceil for 10. Answer: 20
  *
  * Ex.2. [30,20,40,10,25,35,50] represents level order traversal of a binary
@@ -46,7 +46,7 @@ public final class CeilInBinarySearchTree {
 
     public static Node getCeil(Node root, int key) {
         if (root == null) {
-            return null;
+            return null; // TODO: Consider returning Optional.empty() instead
         }
 
         // if root value is same as key than root is the ceiling

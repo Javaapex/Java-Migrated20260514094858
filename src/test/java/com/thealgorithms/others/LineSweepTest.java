@@ -21,7 +21,7 @@ public class LineSweepTest {
     }
 
     private static Stream<Arguments> provideOverlapTestData() {
-        return Stream.of(Arguments.of(new OverlapTestCase(new int[][] {{0, 10}, {7, 20}, {15, 24}}, true)), Arguments.of(new OverlapTestCase(new int[][] {{0, 10}, {11, 20}, {21, 24}}, false)), Arguments.of(new OverlapTestCase(new int[][] {{0, 10}, {10, 20}, {21, 24}}, true)),
+        return Stream.of(Arguments.of(new OverlapTestCase(new int[][] {{0, 10}, {7, 20
             Arguments.of(new OverlapTestCase(new int[][] {{5, 10}}, false)), Arguments.of(new OverlapTestCase(new int[][] {{1, 5}, {1, 5}, {1, 5}}, true)), Arguments.of(new OverlapTestCase(new int[][] {{1, 1}, {2, 2}, {3, 3}}, false)), Arguments.of(new OverlapTestCase(new int[][] {}, false)));
     }
 

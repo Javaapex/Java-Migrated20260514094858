@@ -28,7 +28,7 @@ class StackArrayListTest {
     @Test
     void testPeek() {
         stack.push(10);
-        stack.push(20);
+        stack.push(20
 
         Assertions.assertEquals(20, stack.peek()); // Peek should return the top element
         stack.pop(); // Remove top element

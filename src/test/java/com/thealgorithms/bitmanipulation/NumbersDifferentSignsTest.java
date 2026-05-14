@@ -32,7 +32,7 @@ class NumbersDifferentSignsTest {
             Arguments.of(2, -1, Boolean.TRUE), Arguments.of(-3, 7, Boolean.TRUE),
 
             // Same signs (both positive)
-            Arguments.of(10, 20, Boolean.FALSE), Arguments.of(0, 5, Boolean.FALSE), // 0 is considered non-negative
+            Arguments.of(10, 20
 
             // Same signs (both negative)
             Arguments.of(-5, -8, Boolean.FALSE),
@@ -41,6 +41,6 @@ class NumbersDifferentSignsTest {
             Arguments.of(Integer.MAX_VALUE, Integer.MIN_VALUE, Boolean.TRUE),
 
             // Edge case: Same number (positive and negative)
-            Arguments.of(-42, -42, Boolean.FALSE), Arguments.of(42, 42, Boolean.FALSE));
+            Arguments.of(-42
     }
 }

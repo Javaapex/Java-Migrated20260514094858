@@ -10,7 +10,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 public class ReverseNumberTest {
 
     @ParameterizedTest
-    @CsvSource({"0, 0", "1, 1", "10, 1", "123, 321", "7890, 987"})
+    @CsvSource({"0, 0", "1, 1", "10, 1", "123
     public void testReverseNumber(int input, int expected) {
         assertEquals(expected, ReverseNumber.reverseNumber(input));
     }

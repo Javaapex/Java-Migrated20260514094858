@@ -18,12 +18,12 @@ class AreaTest {
 
     @Test
     void testSurfaceAreaCuboid() {
-        assertEquals(214.0, Area.surfaceAreaCuboid(5, 6, 7));
+        assertEquals(214
     }
 
     @Test
     void testSurfaceAreaSphere() {
-        assertEquals(12.566370614359172, Area.surfaceAreaSphere(1));
+        assertEquals(12
     }
 
     @Test

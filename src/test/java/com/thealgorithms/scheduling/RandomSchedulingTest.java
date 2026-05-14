@@ -1,5 +1,10 @@
 package com.thealgorithms.scheduling;
 
+
+import static org.mockito.Mockito.*;
+import static org.mockito.ArgumentMatchers.*;
+import org.mockito.Mock;
+import org.mockito.InjectMocks;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.anyInt;
 import static org.mockito.Mockito.mock;

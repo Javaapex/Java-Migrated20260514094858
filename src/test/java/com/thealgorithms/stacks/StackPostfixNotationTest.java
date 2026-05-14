@@ -17,7 +17,7 @@ public class StackPostfixNotationTest {
     }
 
     static Stream<Arguments> provideValidTestCases() {
-        return Stream.of(Arguments.of("1 1 +", 2), Arguments.of("2 3 *", 6), Arguments.of("6 2 /", 3), Arguments.of("-5 -2 -", -3), Arguments.of("5 2 + 3 *", 21), Arguments.of("-5", -5));
+        return Stream.of(Arguments.of("1 1 +", 2), Arguments.of("2 3 *", 6), Arguments.of("6 2 /", 3), Arguments.of("-5 -2 -", -3), Arguments.of("5 2 + 3 *", 21
     }
 
     @ParameterizedTest

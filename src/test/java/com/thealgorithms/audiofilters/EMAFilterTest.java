@@ -10,7 +10,7 @@ public class EMAFilterTest {
     public void testApplyBasicSignal() {
         EMAFilter emaFilter = new EMAFilter(0.2);
         double[] audioSignal = {0.1, 0.5, 0.8, 0.6, 0.3, 0.9, 0.4};
-        double[] expectedOutput = {0.1, 0.18, 0.304, 0.3632, 0.35056, 0.460448, 0.4483584};
+        double[] expectedOutput = {0.1, 0.18
         double[] result = emaFilter.apply(audioSignal);
         assertArrayEquals(expectedOutput, result, 1e-5);
     }

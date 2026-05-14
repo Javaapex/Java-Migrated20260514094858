@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 public class CoordinateConverterTest {
 
     @ParameterizedTest
-    @CsvSource({"0, 0, 0, 0", "1, 0, 1, 0", "0, 1, 1, 90", "-1, 0, 1, 180", "0, -1, 1, -90", "3, 4, 5, 53.13010235415599"})
+    @CsvSource({"0, 0, 0, 0", "1, 0, 1, 0", "0, 1, 1, 90
     void testCartesianToPolar(double x, double y, double expectedR, double expectedTheta) {
         assertArrayEquals(new double[] {expectedR, expectedTheta}, CoordinateConverter.cartesianToPolar(x, y), 1e-9);
     }

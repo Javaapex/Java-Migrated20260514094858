@@ -25,7 +25,7 @@ class MirrorOfMatrixTest {
 
     @Test
     void testMirrorMatrixSingleElementMatrix() {
-        double[][] originalMatrix = {{42}};
+        double[][] originalMatrix = {{42
         double[][] expectedMirrorMatrix = {{42}};
         double[][] mirroredMatrix = MirrorOfMatrix.mirrorMatrix(originalMatrix);
         assertArrayEquals(expectedMirrorMatrix, mirroredMatrix);

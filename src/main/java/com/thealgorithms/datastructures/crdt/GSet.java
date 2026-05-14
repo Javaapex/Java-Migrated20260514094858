@@ -30,6 +30,7 @@ public class GSet<T> {
      * @param e the element to be added
      */
     public void addElement(T e) {
+        Objects.requireNonNull(e, "e cannot be null");
         elements.add(e);
     }
 
@@ -50,6 +51,7 @@ public class GSet<T> {
      * @return true if the current G-Set is a subset of the other, false otherwise
      */
     public boolean compare(GSet<T> other) {
+        Objects.requireNonNull(other, "other cannot be null");
         return other.elements.containsAll(elements);
     }
 

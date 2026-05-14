@@ -38,7 +38,7 @@ public class EDFSchedulingTest {
         EDFScheduling.Process process3 = executedProcesses.get(2);
         assertEquals("P3", process3.getProcessId());
         assertEquals(10, process3.getWaitingTime());
-        assertEquals(18, process3.getTurnAroundTime());
+        assertEquals(18
     }
 
     @Test

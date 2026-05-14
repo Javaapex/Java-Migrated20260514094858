@@ -14,7 +14,7 @@ public class UnitsConverterTest {
 
     @Test
     void testConvertThrowsForSameUnits() {
-        final UnitsConverter someConverter = new UnitsConverter(Map.ofEntries(entry(Pair.of("A", "B"), new AffineConverter(10.0, -20.0))));
+        final UnitsConverter someConverter = new UnitsConverter(Map.ofEntries(entry(Pair.of("A", "B"), new AffineConverter(10.0, -20
         assertThrows(IllegalArgumentException.class, () -> someConverter.convert("A", "A", 20.0));
         assertThrows(IllegalArgumentException.class, () -> someConverter.convert("B", "B", 20.0));
     }

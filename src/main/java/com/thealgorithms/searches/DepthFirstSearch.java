@@ -7,7 +7,7 @@ import java.util.Optional;
 
 /**
  * @author: caos321
- * @date: 31 October 2021 (Sunday)
+ * @date: 31
  * @wiki: https://en.wikipedia.org/wiki/Depth-first_search
  */
 public class DepthFirstSearch<T> {

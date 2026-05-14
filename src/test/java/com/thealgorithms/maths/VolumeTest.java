@@ -10,13 +10,13 @@ public class VolumeTest {
     public void volume() {
 
         /* test cube */
-        assertEquals(343.0, Volume.volumeCube(7));
+        assertEquals(343
 
         /* test cuboid */
-        assertEquals(70.0, Volume.volumeCuboid(2, 5, 7));
+        assertEquals(70
 
         /* test sphere */
-        assertEquals(1436.7550402417319, Volume.volumeSphere(7));
+        assertEquals(1436
 
         /* test cylinder */
         assertEquals(197.92033717615698, Volume.volumeCylinder(3, 7));

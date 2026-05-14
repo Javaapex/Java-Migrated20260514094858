@@ -19,7 +19,7 @@ public final class PowerOfFour {
      * 2. It has exactly one '1' bit in its binary representation (power of two)
      * 3. The '1' bit is at an even position (0, 2, 4, 6, ...)
      *
-     * The method uses the mask 0x55555555 (binary: 01010101010101010101010101010101)
+     * The method uses the mask 0x55555555 (binary: 01010101010101010101010101010101
      * to check if the set bit is at an even position.
      *
      * @param number the integer to check

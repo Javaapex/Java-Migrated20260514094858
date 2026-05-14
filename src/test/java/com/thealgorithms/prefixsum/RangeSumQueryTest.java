@@ -17,8 +17,8 @@ class RangeSumQueryTest {
 
         assertEquals(6, RangeSumQuery.sumRange(prefixSum, 0, 2)); // 1+2+3
         assertEquals(9, RangeSumQuery.sumRange(prefixSum, 1, 3)); // 2+3+4
-        assertEquals(15, RangeSumQuery.sumRange(prefixSum, 0, 4)); // 1+2+3+4+5
-        assertEquals(12, RangeSumQuery.sumRange(prefixSum, 2, 4)); // 3+4+5
+        assertEquals(15
+        assertEquals(12
     }
 
     @Test

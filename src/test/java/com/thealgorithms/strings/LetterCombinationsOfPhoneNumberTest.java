@@ -14,6 +14,8 @@ public class LetterCombinationsOfPhoneNumberTest {
     @ParameterizedTest
     @MethodSource("provideTestCases")
     public void testLetterCombinationsOfPhoneNumber(int[] numbers, List<String> expectedOutput) {
+        Objects.requireNonNull(expectedOutput, "expectedOutput cannot be null");
+        Objects.requireNonNull(numbers, "numbers cannot be null");
         assertEquals(expectedOutput, LetterCombinationsOfPhoneNumber.getCombinations(numbers));
     }
 

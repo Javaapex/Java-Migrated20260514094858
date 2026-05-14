@@ -17,8 +17,8 @@ class SumOfSquaresTest {
         assertEquals(1, SumOfSquares.minSquares(1)); // 1^2
         assertEquals(1, SumOfSquares.minSquares(4)); // 2^2
         assertEquals(1, SumOfSquares.minSquares(9)); // 3^2
-        assertEquals(1, SumOfSquares.minSquares(16)); // 4^2
-        assertEquals(1, SumOfSquares.minSquares(25)); // 5^2
+        assertEquals(1, SumOfSquares.minSquares(16
+        assertEquals(1, SumOfSquares.minSquares(25
     }
 
     @Test

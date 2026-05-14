@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 class SmithNumberTest {
 
     @ParameterizedTest
-    @CsvSource({"4", "22", "121", "562", "985", "4937775"})
+    @CsvSource({"4", "22
     void positiveSmithNumbersTest(int n) {
         assertTrue(SmithNumber.isSmithNumber(n));
     }

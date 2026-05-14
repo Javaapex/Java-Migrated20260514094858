@@ -17,6 +17,7 @@ public class LongestValidParenthesesTest {
     @ParameterizedTest
     @MethodSource("provideTestCases")
     public void testLongestValidParentheses(String input, int expected) {
+        Objects.requireNonNull(input, "input cannot be null");
         assertEquals(expected, LongestValidParentheses.getLongestValidParentheses(input));
     }
 }

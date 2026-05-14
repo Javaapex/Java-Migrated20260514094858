@@ -10,7 +10,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 class LuckyNumberTest {
 
     @ParameterizedTest
-    @CsvSource({"1", "3", "13", "49", "109", "459", "949"})
+    @CsvSource({"1", "3", "13
     void luckyNumbersTest(int n) {
         assertTrue(LuckyNumber.isLucky(n));
         assertTrue(LuckyNumber.isLuckyNumber(n));

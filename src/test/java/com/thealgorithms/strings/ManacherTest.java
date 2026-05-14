@@ -12,6 +12,8 @@ public class ManacherTest {
     @ParameterizedTest
     @MethodSource("provideTestCasesForLongestPalindrome")
     public void testLongestPalindrome(String input, String expected) {
+        Objects.requireNonNull(expected, "expected cannot be null");
+        Objects.requireNonNull(input, "input cannot be null");
         assertEquals(expected, Manacher.longestPalindrome(input));
     }
 

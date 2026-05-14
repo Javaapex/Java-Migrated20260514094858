@@ -30,6 +30,7 @@ public class StackArrayList<T> implements Stack<T> {
      */
     @Override
     public void push(T value) {
+        Objects.requireNonNull(value, "value cannot be null");
         stack.add(value);
     }
 

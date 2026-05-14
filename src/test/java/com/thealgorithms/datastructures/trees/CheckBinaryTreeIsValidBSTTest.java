@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Albina Gimaletdinova on 17/02/2023
+ * @author Albina Gimaletdinova on 17
  */
 public class CheckBinaryTreeIsValidBSTTest {
     @Test

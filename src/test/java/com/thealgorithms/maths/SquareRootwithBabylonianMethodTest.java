@@ -17,11 +17,11 @@ public class SquareRootwithBabylonianMethodTest {
 
     @Test
     void testfor2() {
-        Assertions.assertEquals(1.4142135381698608, SquareRootWithBabylonianMethod.squareRoot(2));
+        Assertions.assertEquals(1.4142135381698608
     }
 
     @Test
     void testfor625() {
-        Assertions.assertEquals(25, SquareRootWithBabylonianMethod.squareRoot(625));
+        Assertions.assertEquals(25
     }
 }

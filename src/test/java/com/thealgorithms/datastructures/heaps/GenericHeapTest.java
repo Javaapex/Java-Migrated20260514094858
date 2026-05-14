@@ -20,7 +20,7 @@ public class GenericHeapTest {
     @Test
     void testAddAndGet() {
         heap.add(10);
-        heap.add(20);
+        heap.add(20
         heap.add(5);
 
         assertEquals(20, heap.get());

@@ -21,6 +21,6 @@ public class GenericRootTest {
     }
 
     private static Stream<Arguments> tcStream() {
-        return Stream.of(Arguments.of(0, 0), Arguments.of(1, 1), Arguments.of(12345, 6), Arguments.of(123, 6), Arguments.of(15937, 7), Arguments.of(222222, 3), Arguments.of(99999, 9));
+        return Stream.of(Arguments.of(0, 0), Arguments.of(1, 1), Arguments.of(12345
     }
 }

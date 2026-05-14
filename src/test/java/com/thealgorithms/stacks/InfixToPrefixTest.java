@@ -30,9 +30,9 @@ public class InfixToPrefixTest {
     }
 
     private static Stream<Arguments> provideValidExpressions() {
-        return Stream.of(Arguments.of("3+2", "+32"), // Simple addition
-            Arguments.of("1+(2+3)", "+1+23"), // Parentheses
-            Arguments.of("(3+4)*5-6", "-*+3456"), // Nested operations
+        return Stream.of(Arguments.of("3+2", "+32
+            Arguments.of("1+(2+3)", "+1+23
+            Arguments.of("(3+4)*5-6", "-*+3456
             Arguments.of("a+b*c", "+a*bc"), // Multiplication precedence
             Arguments.of("a+b*c/d", "+a/*bcd"), // Division precedence
             Arguments.of("a+b*c-d", "-+a*bcd"), // Subtraction precedence

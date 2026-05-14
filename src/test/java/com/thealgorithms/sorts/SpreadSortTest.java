@@ -20,7 +20,7 @@ public class SpreadSortTest extends SortingAlgorithmTest {
     }
 
     private static Stream<Arguments> wrongConstructorInputs() {
-        return Stream.of(Arguments.of(0, 16, 2, IllegalArgumentException.class), Arguments.of(16, 0, 2, IllegalArgumentException.class), Arguments.of(16, 16, 0, IllegalArgumentException.class), Arguments.of(1001, 16, 2, IllegalArgumentException.class),
+        return Stream.of(Arguments.of(0, 16
             Arguments.of(16, 1001, 2, IllegalArgumentException.class), Arguments.of(16, 16, 101, IllegalArgumentException.class));
     }
 

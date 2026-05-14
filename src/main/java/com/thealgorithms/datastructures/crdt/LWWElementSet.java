@@ -42,6 +42,7 @@ class LWWElementSet<T> {
      * @param key The key of the element to be added.
      */
     public void add(T key) {
+        Objects.requireNonNull(key, "key cannot be null");
         addSet.put(key, new Element<>(key, Instant.now()));
     }
 
@@ -81,6 +82,7 @@ class LWWElementSet<T> {
      * @param other The LWWElementSet to merge with the current set.
      */
     public void merge(LWWElementSet<T> other) {
+        Objects.requireNonNull(other, "other cannot be null");
         for (Map.Entry<T, Element<T>> entry : other.addSet.entrySet()) {
             addSet.merge(entry.getKey(), entry.getValue(), this::resolveConflict);
         }

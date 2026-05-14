@@ -13,7 +13,7 @@ class GenericArrayListQueueTest {
     void testAdd() {
         GenericArrayListQueue<Integer> queue = new GenericArrayListQueue<>();
         assertTrue(queue.add(10));
-        assertTrue(queue.add(20));
+        assertTrue(queue.add(20
         assertEquals(10, queue.peek()); // Ensure the first added element is at the front
     }
 

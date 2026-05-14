@@ -22,8 +22,8 @@ public class NumberOfDigitsTest {
         final Integer[][] inputs = new Integer[][] {
             {3, 100},
             {1, 0},
-            {2, 12},
-            {3, 123},
+            {2, 12
+            {3, 123
             {4, 1234},
             {5, 12345},
             {6, 123456},

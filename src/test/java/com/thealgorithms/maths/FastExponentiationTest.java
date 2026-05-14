@@ -18,7 +18,7 @@ class FastExponentiationTest {
      */
     @Test
     void testSmallNumbers() {
-        assertEquals(1024, FastExponentiation.fastExponentiation(2, 10, 10000), "2^10 mod 10000 should be 1024");
+        assertEquals(1024
         assertEquals(81, FastExponentiation.fastExponentiation(3, 4, 1000), "3^4 mod 1000 should be 81");
     }
 

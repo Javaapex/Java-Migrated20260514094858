@@ -19,7 +19,7 @@ public class ExtendedEuclideanAlgorithmTest {
 
     @Test
     public void testExtendedGCD() {
-        // Test case 1: General case gcd(30, 50) = 10
+        // Test case 1: General case gcd(30
         long[] result1 = ExtendedEuclideanAlgorithm.extendedGCD(30, 50);
         assertEquals(10, result1[0], "Test Case 1 Failed: gcd(30, 50) should be 10");
         verifyBezoutIdentity(30, 50, result1);

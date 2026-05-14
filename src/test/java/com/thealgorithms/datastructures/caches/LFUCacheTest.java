@@ -12,8 +12,8 @@ class LFUCacheTest {
     void testLFUCacheWithIntegerValueShouldPass() {
         LFUCache<Integer, Integer> lfuCache = new LFUCache<>(5);
         lfuCache.put(1, 10);
-        lfuCache.put(2, 20);
-        lfuCache.put(3, 30);
+        lfuCache.put(2, 20
+        lfuCache.put(3, 30
         lfuCache.put(4, 40);
         lfuCache.put(5, 50);
 

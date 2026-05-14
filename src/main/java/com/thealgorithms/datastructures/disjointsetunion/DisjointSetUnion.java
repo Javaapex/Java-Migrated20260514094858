@@ -45,6 +45,8 @@ public class DisjointSetUnion<T> {
      * @param y a node in the second set
      */
     public void unionSets(Node<T> x, Node<T> y) {
+        Objects.requireNonNull(y, "y cannot be null");
+        Objects.requireNonNull(x, "x cannot be null");
         Node<T> rootX = findSet(x);
         Node<T> rootY = findSet(y);
 

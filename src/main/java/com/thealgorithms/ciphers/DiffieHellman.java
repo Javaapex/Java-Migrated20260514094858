@@ -27,6 +27,7 @@ public final class DiffieHellman {
 
     // Method to calculate the shared secret key (otherPublic^secret mod p)
     public BigInteger calculateSharedSecret(BigInteger otherPublicValue) {
+        Objects.requireNonNull(otherPublicValue, "otherPublicValue cannot be null");
         if (otherPublicValue == null || otherPublicValue.signum() <= 0) {
             throw new IllegalArgumentException("Other public value must be non-null and positive.");
         }

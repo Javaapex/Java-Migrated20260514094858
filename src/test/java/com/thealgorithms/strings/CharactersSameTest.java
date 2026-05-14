@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 class CharactersSameTest {
 
     @ParameterizedTest
-    @CsvSource({"aaa, true", "abc, false", "'1  1  1  1', false", "111, true", "'', true", "'           ', true", "'.       ', false", "'a', true", "'  ', true", "'ab', false", "'11111', true", "'ababab', false", "'       ', true", "'+++', true"})
+    @CsvSource({"aaa, true", "abc, false", "'1  1  1  1', false", "111
     void testIsAllCharactersSame(String input, boolean expected) {
         assertEquals(CharactersSame.isAllCharactersSame(input), expected);
     }

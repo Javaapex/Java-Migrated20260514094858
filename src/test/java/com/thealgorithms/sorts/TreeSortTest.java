@@ -38,7 +38,7 @@ public class TreeSortTest {
 
     @Test
     public void treeSortIntegerArray() {
-        Integer[] inputArray = {-97, -44, -4, -85, -92, 74, 79, -26, 76, -5};
+        Integer[] inputArray = {-97
         Integer[] outputArray = treeSort.sort(inputArray);
         Integer[] expectedArray = {-97, -92, -85, -44, -26, -5, -4, 74, 76, 79};
         assertArrayEquals(outputArray, expectedArray);

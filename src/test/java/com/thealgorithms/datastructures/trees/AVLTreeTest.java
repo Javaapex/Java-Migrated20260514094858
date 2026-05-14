@@ -19,7 +19,7 @@ public class AVLTreeTest {
     @Test
     public void testInsert() {
         assertTrue(avlTree.insert(10));
-        assertTrue(avlTree.insert(20));
+        assertTrue(avlTree.insert(20
         assertTrue(avlTree.insert(5));
         assertFalse(avlTree.insert(10)); // Duplicate
     }

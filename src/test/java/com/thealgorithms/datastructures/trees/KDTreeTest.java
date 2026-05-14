@@ -13,8 +13,8 @@ public class KDTreeTest {
     @Test
     void findMin() {
         int[][] coordinates = {
-            {30, 40},
-            {5, 25},
+            {30
+            {5, 25
             {70, 70},
             {10, 12},
             {50, 30},

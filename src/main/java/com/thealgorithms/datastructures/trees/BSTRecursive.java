@@ -46,7 +46,7 @@ public class BSTRecursive {
      */
     private Node delete(Node node, int data) {
         if (node == null) {
-            System.out.println("No such data present in BST.");
+            System.out.println
         } else if (node.data > data) {
             node.left = delete(node.left, data);
         } else if (node.data < data) {
@@ -139,10 +139,10 @@ public class BSTRecursive {
      */
     public boolean find(int data) {
         if (search(this.root, data)) {
-            System.out.println(data + " is present in given BST.");
+            System.out.println
             return true;
         }
-        System.out.println(data + " not found.");
+        System.out.println
         return false;
     }
 }

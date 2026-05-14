@@ -8,7 +8,7 @@ import java.util.Map;
  * Examples:
  * "ABC" -> "Alpha Bravo Charlie"
  * "Hello" -> "Hotel Echo Lima Lima Oscar"
- * "123" -> "One Two Three"
+ * "123
  * "A1B2C3" -> "Alpha One Bravo Two Charlie Three"
  *
  * @author Hardvan

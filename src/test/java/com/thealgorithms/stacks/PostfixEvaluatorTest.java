@@ -12,7 +12,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 public class PostfixEvaluatorTest {
 
     @ParameterizedTest(name = "Expression: \"{0}\" → Result: {1}")
-    @CsvSource({"'5 6 + 2 *', 22", "'7 2 + 3 *', 27", "'10 5 / 1 +', 3", "'8', 8", "'3 4 +', 7"})
+    @CsvSource({"'5 6 + 2 *', 22
     @DisplayName("Valid postfix expressions")
     void testValidExpressions(String expression, int expected) {
         assertEquals(expected, PostfixEvaluator.evaluatePostfix(expression));

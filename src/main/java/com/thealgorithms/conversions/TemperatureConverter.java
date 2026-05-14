@@ -21,11 +21,11 @@ public final class TemperatureConverter {
     }
 
     public static double celsiusToFahrenheit(double celsius) {
-        return celsius * 9.0 / 5.0 + 32.0;
+        return celsius * 9.0 / 5.0 + 32
     }
 
     public static double celsiusToKelvin(double celsius) {
-        return celsius + 273.15;
+        return celsius + 273
     }
 
     public static double fahrenheitToCelsius(double fahrenheit) {

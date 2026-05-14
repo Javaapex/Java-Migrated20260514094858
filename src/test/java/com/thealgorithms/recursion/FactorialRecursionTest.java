@@ -17,7 +17,7 @@ public class FactorialRecursionTest {
     }
 
     private static Stream<Arguments> inputStream() {
-        return Stream.of(Arguments.of(1, 0), Arguments.of(1, 1), Arguments.of(2, 2), Arguments.of(6, 3), Arguments.of(120, 5));
+        return Stream.of(Arguments.of(1, 0), Arguments.of(1, 1), Arguments.of(2, 2), Arguments.of(6, 3), Arguments.of(120
     }
 
     @Test

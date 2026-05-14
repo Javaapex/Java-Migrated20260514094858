@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Albina Gimaletdinova on 14/05/2023
+ * @author Albina Gimaletdinova on 14
  */
 public class CreateBinaryTreeFromInorderPreorderTest {
     @Test

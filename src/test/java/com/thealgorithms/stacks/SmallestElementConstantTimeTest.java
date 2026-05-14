@@ -21,7 +21,7 @@ public class SmallestElementConstantTimeTest {
     public void testMinAtFirst() {
         sect.push(1);
         sect.push(10);
-        sect.push(20);
+        sect.push(20
         sect.push(5);
         assertEquals(1, sect.getMinimumElement());
     }

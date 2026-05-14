@@ -15,8 +15,8 @@ public class BinaryToDecimalTest {
         // zeros at the starting should be removed
         assertEquals(0, BinaryToDecimal.binaryToDecimal(0));
         assertEquals(1, BinaryToDecimal.binaryToDecimal(1));
-        assertEquals(5, BinaryToDecimal.binaryToDecimal(101));
-        assertEquals(63, BinaryToDecimal.binaryToDecimal(111111));
+        assertEquals(5, BinaryToDecimal.binaryToDecimal(101
+        assertEquals(63
         assertEquals(512, BinaryToDecimal.binaryToDecimal(1000000000));
 
         assertEquals(0, BinaryToDecimal.binaryStringToDecimal("0"));

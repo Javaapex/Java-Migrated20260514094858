@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * Utility class for converting a non-negative decimal (base-10) integer
- * to its representation in another radix (base) between 2 and 16, inclusive.
+ * to its representation in another radix (base) between 2 and 16
  *
  * <p>This class uses a stack-based approach to reverse the digits obtained from
  * successive divisions by the target radix.

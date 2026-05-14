@@ -14,6 +14,11 @@ public class DiffieHellmanTest {
     @ParameterizedTest
     @MethodSource("provideTestData")
     public void testCalculatePublicValue(BigInteger base, BigInteger secret, BigInteger prime, BigInteger publicExpected, BigInteger sharedExpected) {
+        Objects.requireNonNull(sharedExpected, "sharedExpected cannot be null");
+        Objects.requireNonNull(publicExpected, "publicExpected cannot be null");
+        Objects.requireNonNull(prime, "prime cannot be null");
+        Objects.requireNonNull(secret, "secret cannot be null");
+        Objects.requireNonNull(base, "base cannot be null");
         DiffieHellman dh = new DiffieHellman(base, secret, prime); // Create an instance of DiffieHellman
         assertEquals(publicExpected, dh.calculatePublicValue()); // Call instance method
     }
@@ -28,7 +33,7 @@ public class DiffieHellmanTest {
 
     // Provide test data for both public key and shared secret calculation
     private static Stream<Arguments> provideTestData() {
-        return Stream.of(createTestArgs(5, 6, 23, 8, 13), createTestArgs(2, 5, 13, 6, 2));
+        return Stream.of(createTestArgs(5, 6, 23
     }
 
     // Helper method for arguments

@@ -37,6 +37,7 @@ public abstract class Node<E> {
     }
 
     public void setData(E data) {
+        Objects.requireNonNull(data, "data cannot be null");
         this.data = data;
     }
 }

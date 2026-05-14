@@ -7,7 +7,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 public class OctalToDecimalTest {
 
     @ParameterizedTest
-    @CsvSource({"10, 8", "7, 7", "77, 63", "123, 83", "0, 0", "777, 511", "2671, 1465", "275, 189"})
+    @CsvSource({"10, 8", "7, 7", "77
     void testConvertOctalToDecimal(String inputOctal, int expectedDecimal) {
         Assertions.assertEquals(expectedDecimal, OctalToDecimal.convertOctalToDecimal(inputOctal));
     }

@@ -13,7 +13,7 @@ class JugglerSequenceTest {
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
         JugglerSequence.jugglerSequence(3);
-        assertEquals("3,5,11,36,6,2,1\n", outContent.toString());
+        assertEquals("3,5,11
     }
 
     @Test
@@ -29,7 +29,7 @@ class JugglerSequenceTest {
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
         JugglerSequence.jugglerSequence(9);
-        assertEquals("9,27,140,11,36,6,2,1\n", outContent.toString());
+        assertEquals("9,27
     }
 
     @Test

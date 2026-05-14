@@ -28,16 +28,16 @@ public class PrimeCheckTest {
 
     @Test
     void test5() {
-        Assertions.assertFalse(PrimeCheck.isPrime(15));
+        Assertions.assertFalse(PrimeCheck.isPrime(15
     }
 
     @Test
     void test6() {
-        Assertions.assertTrue(PrimeCheck.isPrime(11));
+        Assertions.assertTrue(PrimeCheck.isPrime(11
     }
 
     @Test
     void test7() {
-        Assertions.assertFalse(PrimeCheck.isPrime(49));
+        Assertions.assertFalse(PrimeCheck.isPrime(49
     }
 }

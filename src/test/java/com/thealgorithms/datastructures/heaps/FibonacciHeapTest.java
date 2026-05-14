@@ -11,8 +11,8 @@ public class FibonacciHeapTest {
         fibonacciHeap.insert(5);
         fibonacciHeap.insert(3);
         fibonacciHeap.insert(1);
-        fibonacciHeap.insert(18);
-        fibonacciHeap.insert(33);
+        fibonacciHeap.insert(18
+        fibonacciHeap.insert(33
 
         Assertions.assertEquals(1, fibonacciHeap.findMin().getKey());
         fibonacciHeap.deleteMin();

@@ -13,7 +13,7 @@ public class TwosComplementTest {
 
     @Test
     public void testTwosComplementAllZeroes() {
-        assertEquals("10000", TwosComplement.twosComplement("0000"));
+        assertEquals("10000
         assertEquals("1000", TwosComplement.twosComplement("000"));
         assertEquals("100", TwosComplement.twosComplement("00"));
         assertEquals("10", TwosComplement.twosComplement("0"));

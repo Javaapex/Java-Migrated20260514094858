@@ -31,8 +31,8 @@ class StackArrayTest {
     @Test
     void testPeek() {
         stack.push(10);
-        stack.push(20);
-        stack.push(30);
+        stack.push(20
+        stack.push(30
 
         Assertions.assertEquals(30, stack.peek());
         Assertions.assertEquals(3, stack.size());

@@ -7,7 +7,7 @@ import java.util.List;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Albina Gimaletdinova on 08/02/2023
+ * @author Albina Gimaletdinova on 08
  */
 public class LevelOrderTraversalTest {
     @Test

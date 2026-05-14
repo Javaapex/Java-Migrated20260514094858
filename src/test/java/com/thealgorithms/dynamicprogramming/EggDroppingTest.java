@@ -23,6 +23,6 @@ public class EggDroppingTest {
 
     @Test
     void hasMultipleEggMultipleFloor() {
-        assertEquals(7, EggDropping.minTrials(100, 101));
+        assertEquals(7, EggDropping.minTrials(100, 101
     }
 }
